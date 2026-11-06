@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NYC Art · 뉴욕 전시</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{
+    --primary100:#DBD5FC; --primary200:#AA97FF; --primary300:#8063FF;
+    --sub-red:#F95353; --sub-lime:#B3FF3B; --sub-lightgray:#F5F6FA;
+    --gray0:#FFFFFF; --gray50:#EBEBEB; --gray100:#DBDBDB; --gray900:#111111;
+    --text-primary:#111111; --text-secondary:#686868; --text-tertiary:#A5A5AF; --text-point:#8063FF;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#E9E9EE;font-family:Pretendard,-apple-system,sans-serif;color:var(--text-primary);-webkit-font-smoothing:antialiased}
+  button{font:inherit;border:0;background:none;cursor:pointer;color:inherit}
+  a{color:inherit;text-decoration:none}
+
+  /* typography (AppTextStyle) */
+  .headline{font-size:20px;font-weight:700;line-height:28px;letter-spacing:-0.02em}
+  .title01b{font-size:18px;font-weight:700;line-height:20px;letter-spacing:-0.02em}
+  .title02b{font-size:16px;font-weight:700;line-height:18px;letter-spacing:-0.02em}
+  .body01b{font-size:14px;font-weight:700;line-height:16px;letter-spacing:-0.02em}
+  .body01r{font-size:14px;font-weight:400;line-height:20px;letter-spacing:-0.02em}
+  .body02b{font-size:12px;font-weight:700}
+  .body02r{font-size:12px;font-weight:400}
+
+  .phone{max-width:412px;min-height:100vh;margin:0 auto;background:var(--gray0);position:relative;padding-bottom:110px}
+
+  /* HomeAppBar */
+  .appbar{position:sticky;top:0;z-index:5;background:var(--gray0);padding:16px 16px 0}
+  .appbar-row{display:flex;justify-content:space-between;align-items:center;height:28px}
+  .logo{width:88px;height:28px;display:flex;align-items:center;font-size:22px;font-weight:800;letter-spacing:-0.04em}
+  .appbar-icons{display:flex;gap:20px}
+  .appbar-icons svg{width:24px;height:24px;display:block}
+
+  /* AppTabRow */
+  .tabs{display:flex;gap:24px;padding:24px 16px 0}
+  .tab{color:var(--text-tertiary);padding-bottom:4px;position:relative}
+  .tab.on{color:var(--text-point)}
+  .tab.on::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:2px;background:var(--text-point);border-radius:2px}
+
+  /* AppFilterChip */
+  .chips{display:flex;gap:8px;overflow-x:auto;padding:12px 16px 0;scrollbar-width:none}
+  .chips::-webkit-scrollbar,.hscroll::-webkit-scrollbar{display:none}
+  .chip{flex:none;height:36px;padding:0 20px;border-radius:24px;border:1px solid var(--gray100);background:var(--gray0);color:var(--text-primary)}
+  .chip.on{background:var(--primary300);border-color:var(--primary300);color:var(--gray0);font-weight:700}
+
+  .section{padding-top:24px}
+  .section-title{display:flex;justify-content:space-between;align-items:center;padding:0 16px;margin-bottom:12px}
+  .section-title svg{width:20px;height:20px}
+  .hscroll{display:flex;gap:8px;overflow-x:auto;padding:0 16px;scroll-snap-type:x proximity;scrollbar-width:none}
+
+  /* ExhibitionImage */
+  .img{position:relative;flex:none;border-radius:8px;border:1px solid var(--gray50);overflow:hidden;background:linear-gradient(135deg,var(--primary100),var(--sub-lightgray))}
+  .img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+  .img .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--primary200);font-weight:800;font-size:13px;text-align:center;padding:8px}
+  .case1{width:180px;height:240px}
+  .case2{width:120px;height:150px}
+  .case3{width:100px;height:100px}
+
+  /* CountryChip / LikeButton / AppTag */
+  .country{position:absolute;height:22px;padding:0 8px;border-radius:11px;background:rgba(17,17,17,.5);color:#fff;display:flex;align-items:center}
+  .like{position:absolute;width:24px;height:24px;border-radius:12px;background:rgba(17,17,17,.4);display:flex;align-items:center;justify-content:center}
+  .like svg{width:14px;height:14px}
+  .tag{position:absolute;right:4px;bottom:4px;padding:4px;border-radius:4px;background:var(--sub-lime);color:var(--text-primary)}
+  .tag.soon{background:var(--text-primary);color:var(--sub-lime)}
+  .tag.up{background:var(--sub-lightgray);color:var(--text-point)}
+
+  /* Case1 */
+  .card1{scroll-snap-align:start}
+  .card1 .grad{position:absolute;left:0;right:0;bottom:0;height:100%;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.85) 100%)}
+  .card1 .info{position:absolute;left:0;right:0;bottom:0;padding:16px;display:flex;flex-direction:column;gap:4px;color:#fff}
+  .clamp2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .clamp1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* Case2 */
+  .card2{width:120px;flex:none}
+  .card2 .t{margin-top:8px}
+
+  /* Weekly */
+  .days{display:flex;justify-content:space-between;padding:0 16px}
+  .day{display:flex;flex-direction:column;align-items:center;gap:6px;width:40px}
+  .day .dow{color:var(--text-tertiary)}
+  .day .num{width:36px;height:36px;border-radius:18px;display:flex;align-items:center;justify-content:center}
+  .day.on .num{background:var(--primary300);color:#fff}
+  .day.today:not(.on) .num{border:1px solid var(--gray100)}
+  .list{display:flex;flex-direction:column;gap:12px;padding:20px 16px 0}
+  .row{display:flex;align-items:center;gap:12px}
+  .row .meta{min-width:0;flex:1;display:flex;flex-direction:column}
+  .empty{padding:32px 16px;text-align:center;color:var(--text-tertiary)}
+
+  /* AppBottomNavBar */
+  .nav{position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:100%;max-width:412px;height:62px;background:var(--gray0);border-radius:16px 16px 0 0;box-shadow:0 -2px 12px rgba(0,0,0,.06);display:flex;justify-content:space-between;align-items:center;padding:0 16px;z-index:10}
+  .nav-item{width:48px;height:46px;display:flex;flex-direction:column;align-items:center;justify-content:space-between;color:var(--text-primary)}
+  .nav-item svg{width:28px;height:28px}
+  .nav-item.on{color:var(--text-point)}
+  .nav-center{width:66px;display:flex;flex-direction:column;align-items:center;gap:4px;transform:translateY(-18px)}
+  .nav-center .circle{width:48px;height:48px;border-radius:24px;background:linear-gradient(135deg,#7859FF,#AA96FF);display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 0 0 6px var(--gray0)}
+  .nav-center svg{width:26px;height:26px}
+  .foot{padding:32px 16px 8px;color:var(--text-tertiary)}
+
+  /* ExhibitionDetailScreen */
+  .dt-bar{position:sticky;top:0;z-index:5;height:56px;background:var(--gray0);display:flex;align-items:center;padding:0 16px}
+  .dt-bar svg{width:24px;height:24px;display:block}
+  .hero{position:relative;height:280px;background:linear-gradient(135deg,var(--primary100),var(--sub-lightgray));overflow:hidden}
+  .hero img{width:100%;height:100%;object-fit:cover;display:block}
+  .hero .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--primary200);font-weight:800;font-size:18px;padding:24px;text-align:center}
+  .hero .tag{position:absolute;left:24px;top:16px;right:auto;bottom:auto}
+  .sheet{position:relative;margin-top:-16px;border-radius:16px 16px 0 0;background:var(--gray0);padding:24px 0 48px}
+  .info{padding:0 24px}
+  .info .meta{margin-top:12px}
+  .btn{display:flex;align-items:center;justify-content:center;width:100%;height:52px;border-radius:12px;background:var(--primary300);color:var(--text-white,#fff);margin-top:20px}
+  .btn.line{background:var(--gray0);color:var(--text-primary);border:1px solid var(--gray100)}
+  .dtabs{display:flex;margin-top:24px;border-bottom:1px solid var(--gray100)}
+  .dtab{flex:1;height:48px;color:var(--text-tertiary);position:relative}
+  .dtab.on{color:var(--text-point)}
+  .dtab.on::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:var(--primary300)}
+  .tabbody{padding:16px 24px 0}
+  .box{background:var(--sub-lightgray);border-radius:8px;padding:16px}
+  .irows{display:flex;flex-direction:column;gap:16px}
+  .irow{display:flex;gap:8px}
+  .irow .k{flex:none;width:72px;display:flex;align-items:center;gap:4px;align-self:flex-start}
+  .irow .k svg{width:20px;height:20px;flex:none}
+  .irow .v{flex:1;min-width:0;white-space:pre-line;word-break:break-word}
+  .irow .none{color:var(--text-tertiary)}
+  .copy{display:inline-block;margin-top:4px;color:var(--primary300)}
+  .note{display:flex;gap:4px;align-items:flex-start;margin:12px 0 16px;color:var(--text-secondary)}
+  .note svg{width:16px;height:16px;flex:none;margin-top:1px}
+  .map{height:220px;border-radius:8px;background:var(--gray50);overflow:hidden}
+  .map iframe{width:100%;height:100%;border:0}
+  .rv-head{display:flex;justify-content:space-between;align-items:center;padding:12px}
+  .rv-btn{height:32px;padding:0 12px;border-radius:8px;border:1px solid var(--gray100);background:var(--gray0)}
+  .rv-empty{padding:55px 0;text-align:center;color:var(--text-tertiary)}
+  #dialog{position:fixed;inset:0;z-index:20;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;padding:24px}
+  #dialog[hidden]{display:none}
+  .dlg{width:100%;max-width:328px;background:var(--gray0);border-radius:16px;padding:24px 20px 20px;text-align:center}
+  .dlg hr{border:0;border-top:1px solid var(--gray50);margin:11px 0 30px}
+  .dlg .btns{display:flex;gap:8px;margin-top:24px}
+  .dlg .btns .btn{margin:0}
+</style>
+</head>
+<body>
+<div class="phone">
+<div id="home">
+  <header class="appbar">
+    <div class="appbar-row">
+      <div class="logo">NYC Art</div>
+      <div class="appbar-icons">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-label="알림"><path d="M6 17V11a6 6 0 1 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" aria-label="달력"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round" aria-label="검색"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs headline" id="tabs">
+    <button class="tab on" data-tab="foreign">해외전시</button>
+    <button class="tab" data-tab="domestic">국내전시</button>
+  </nav>
+  <div class="chips body01r" id="chips"></div>
+
+  <main id="body"></main>
+  <p class="foot body02r" id="foot"></p>
+
+  <nav class="nav body02r">
+    <a class="nav-item on"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M4.5 12.5 14 4.5l9.5 8V23a1 1 0 0 1-1 1h-17a1 1 0 0 1-1-1z"/><path d="M11 24v-7h6v7"/></svg>홈</a>
+    <a class="nav-item"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 25s8-7.2 8-13.5a8 8 0 1 0-16 0C6 17.8 14 25 14 25z"/><circle cx="14" cy="11.5" r="3"/></svg>지도</a>
+    <a class="nav-center"><span class="circle"><svg viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M13 3.5c1.6 0 2.4 1.9 3.6 2.6 1.3.7 3.3.3 4.2 1.7.8 1.4-.5 3-.5 4.6s1.3 3.2.5 4.6c-.9 1.4-2.9 1-4.2 1.7-1.2.7-2 2.6-3.6 2.6s-2.4-1.9-3.6-2.6c-1.3-.7-3.3-.3-4.2-1.7-.8-1.4.5-3 .5-4.6s-1.3-3.2-.5-4.6c.9-1.4 2.9-1 4.2-1.7C10.6 5.4 11.4 3.5 13 3.5z"/><circle cx="13" cy="13" r="2.6"/></svg></span>스탬프</a>
+    <a class="nav-item"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M7.5 4.5h13v19L14 18.5l-6.5 5z"/></svg>즐겨찾기</a>
+    <a class="nav-item"><svg viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="14" cy="14" r="10"/><circle cx="14" cy="11.5" r="3.5"/><path d="M7.5 21.5c1.5-2.6 3.8-3.8 6.5-3.8s5 1.2 6.5 3.8"/></svg>My</a>
+  </nav>
+</div>
+<div id="detail" hidden></div>
+<div id="dialog" hidden></div>
+</div>
+
+<script>
+const TODAY = '2026-11-07';
+const BOROUGH_KO = {Manhattan:'맨해튼', Brooklyn:'브루클린', Queens:'퀸즈'};
+const HEART_ON = '<svg viewBox="0 0 14 14"><path fill="#F95353" d="M7 12.2 1.9 7.3A3 3 0 0 1 7 3.4a3 3 0 0 1 5.1 3.9z"/></svg>';
+const HEART_OFF = '<svg viewBox="0 0 14 14"><path fill="none" stroke="#fff" stroke-width="1.3" d="M7 12.2 1.9 7.3A3 3 0 0 1 7 3.4a3 3 0 0 1 5.1 3.9z"/></svg>';
+const ARROW = '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 5 5 5-5 5"/></svg>';
+const FEATURED = ['Museum of Modern Art (MoMA)','The Metropolitan Museum of Art','Solomon R. Guggenheim Museum','Whitney Museum of American Art','Brooklyn Museum','New Museum','The Frick Collection','MoMA PS1'];
+
+// 768px 버전이 없는 이미지는 256px로, 그것도 없으면 플레이스홀더를 노출한다
+function imgFallback(el) {
+  if (el.src.endsWith('-w768.webp')) el.src = el.src.replace('-w768.webp', '-w256.webp');
+  else el.remove();
+}
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const dot = d => d ? d.replaceAll('-', '.') : '';
+const period = e => e.start_date || e.end_date
+  ? `${dot(e.start_date)}${e.start_date ? ' - ' : '~ '}${dot(e.end_date) || e.end_note}`
+  : (e.end_note === 'ongoing' ? '상설' : e.end_note);
+const likes = new Set(JSON.parse(localStorage.getItem('likes') || '[]'));
+
+let all = [], tab = 'foreign', borough = '전체', venue = null, day = TODAY;
+
+const img = (e, cls, inner = '') => `
+  <div class="img ${cls}">
+    <div class="ph">${esc(e.venue)}</div>
+    ${e.image_url ? `<img src="${esc(e.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="imgFallback(this)">` : ''}
+    ${inner}
+  </div>`;
+const like = (e, style) => `<button class="like" style="${style}" data-like="${e.id}" aria-label="좋아요">${likes.has(e.id) ? HEART_ON : HEART_OFF}</button>`;
+const country = (e, style) => `<span class="country body02b" style="${style}">${BOROUGH_KO[e.borough] || '뉴욕'}</span>`;
+const tag = e => e.status === 'upcoming' ? '<span class="tag up body02b">오픈예정</span>'
+  : e.closing_soon ? '<span class="tag soon body02b">종료임박</span>' : '<span class="tag body02b">진행중</span>';
+
+const case1 = e => `
+  <a class="card1" href="#/e/${e.id}">
+    ${img(e, 'case1', `<div class="grad"></div>
+      ${country(e, 'left:10px;top:16px')}${like(e, 'right:16px;top:16px')}
+      <div class="info">
+        <p class="title02b clamp2">${esc(e.title)}</p>
+        <p class="body02r clamp1">${esc(e.venue)}</p>
+        <p class="body02r">${period(e)}</p>
+      </div>`)}
+  </a>`;
+const case2 = e => `
+  <a class="card2" href="#/e/${e.id}">
+    ${img(e, 'case2', country(e, 'left:8px;top:9px') + like(e, 'right:8px;top:9px'))}
+    <p class="t body01b clamp2">${esc(e.title)}</p>
+  </a>`;
+const case3 = e => `
+  <a class="row" href="#/e/${e.id}">
+    ${img(e, 'case3', like(e, 'right:8px;top:8px') + tag(e))}
+    <div class="meta">
+      <p class="body01r" style="color:var(--text-point)">${BOROUGH_KO[e.borough] || '뉴욕'}</p>
+      <p class="body01b clamp2">${esc(e.title)}</p>
+      <p class="body02r clamp1" style="color:var(--text-tertiary);margin-top:4px">${esc(e.venue)}</p>
+      <p class="body02r" style="color:var(--text-tertiary);margin-top:2px">${period(e)}</p>
+    </div>
+  </a>`;
+const title = (t, more) => `<div class="section-title"><h2 class="title01b">${t}</h2>${more ? ARROW : ''}</div>`;
+
+const onView = (e, d) => (!e.start_date || e.start_date <= d) && (!e.end_date || e.end_date >= d);
+const byEnd = (a, b) => (a.end_date || '9999').localeCompare(b.end_date || '9999');
+
+function weekDates() {
+  const t = new Date(TODAY + 'T00:00:00'), mon = new Date(t);
+  mon.setDate(t.getDate() - ((t.getDay() + 6) % 7));
+  return [...Array(7)].map((_, i) => { const d = new Date(mon); d.setDate(mon.getDate() + i); return d; });
+}
+const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+function render() {
+  const chips = document.getElementById('chips'), body = document.getElementById('body');
+  if (tab === 'domestic') {
+    chips.innerHTML = '';
+    body.innerHTML = '<p class="empty body01r">진행중인 전시가 없습니다.</p>';
+    return;
+  }
+  const boroughs = ['전체', ...new Set(all.map(e => BOROUGH_KO[e.borough]))];
+  chips.innerHTML = boroughs.map(b => `<button class="chip ${b === borough ? 'on' : ''}" data-borough="${b}">${b}</button>`).join('');
+  const list = all.filter(e => borough === '전체' || BOROUGH_KO[e.borough] === borough);
+
+  const cur = list.filter(e => e.status === 'on_view');
+  const featured = cur.filter(e => e.image_url && FEATURED.includes(e.venue))
+    .sort((a, b) => FEATURED.indexOf(a.venue) - FEATURED.indexOf(b.venue) || byEnd(a, b));
+  const pick = []; const seenVenue = {};
+  for (const e of featured) if ((seenVenue[e.venue] = (seenVenue[e.venue] || 0) + 1) <= 2) pick.push(e);
+  const upcoming = list.filter(e => e.status === 'upcoming').sort((a, b) => a.start_date.localeCompare(b.start_date));
+  const daily = list.filter(e => onView(e, day)).sort(byEnd).slice(0, 5);
+  const venues = [...new Set(cur.map(e => e.venue))].sort((a, b) => cur.filter(e => e.venue === b).length - cur.filter(e => e.venue === a).length);
+  if (!venues.includes(venue)) venue = venues[0];
+  const byVenue = cur.filter(e => e.venue === venue).sort(byEnd);
+
+  body.innerHTML = `
+    <section class="section">
+      <div class="hscroll">${(pick.length ? pick : cur.slice(0, 8)).map(case1).join('') || '<p class="empty body01r">오늘의 전시 추천이 존재하지 않습니다.</p>'}</div>
+    </section>
+
+    <section class="section">
+      ${title('곧 오픈하는 전시')}
+      <div class="hscroll">${upcoming.map(case2).join('') || '<p class="empty body01r">예정된 전시가 없습니다.</p>'}</div>
+    </section>
+
+    <section class="section">
+      ${title('이번주 전시 일정', true)}
+      <div class="days">${weekDates().map(d => `
+        <button class="day ${iso(d) === day ? 'on' : ''} ${iso(d) === TODAY ? 'today' : ''}" data-day="${iso(d)}">
+          <span class="dow body02r">${'일월화수목금토'[d.getDay()]}</span>
+          <span class="num body01b">${d.getDate()}</span>
+        </button>`).join('')}</div>
+      <div class="list">${daily.map(case3).join('') || '<p class="empty body01r">해당 날짜에 진행중인 전시가 존재하지 않습니다.</p>'}</div>
+    </section>
+
+    <section class="section">
+      ${title('미술관별 전시')}
+      <div class="chips body01r" style="padding-top:0">${venues.map(v => `<button class="chip ${v === venue ? 'on' : ''}" data-venue="${esc(v)}">${esc(v)}</button>`).join('')}</div>
+      <div class="list">${byVenue.map(case3).join('')}</div>
+    </section>`;
+}
+
+document.addEventListener('click', ev => {
+  const t = ev.target.closest('[data-like],[data-borough],[data-venue],[data-day],[data-tab]');
+  if (!t) return;
+  ev.preventDefault();
+  if (t.dataset.like) {
+    const id = +t.dataset.like;
+    likes.has(id) ? likes.delete(id) : likes.add(id);
+    localStorage.setItem('likes', JSON.stringify([...likes]));
+  }
+  if (t.dataset.borough) borough = t.dataset.borough;
+  if (t.dataset.venue) venue = t.dataset.venue;
+  if (t.dataset.day) day = t.dataset.day;
+  if (t.dataset.tab) {
+    tab = t.dataset.tab;
+    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === t));
+  }
+  render();
+});
+
+const ICON = {
+  back: '<svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
+  location: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5"><path d="M10 17.5s5.5-4.9 5.5-9.2a5.5 5.5 0 0 0-11 0c0 4.3 5.5 9.2 5.5 9.2z"/><circle cx="10" cy="8.3" r="2"/></svg>',
+  duration: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"><circle cx="10" cy="10" r="7"/><path d="M10 6v4l2.5 2"/></svg>',
+  phone: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5" stroke-linejoin="round"><path d="M4.5 3.5h3l1.3 3.3-1.8 1.1a8 8 0 0 0 5.1 5.1l1.1-1.8 3.3 1.3v3a1.5 1.5 0 0 1-1.6 1.5C8.8 16.6 3.4 11.2 3 5.1A1.5 1.5 0 0 1 4.5 3.5z"/></svg>',
+  info: '<svg viewBox="0 0 16 16" fill="none" stroke="#686868" stroke-width="1.3" stroke-linecap="round"><circle cx="8" cy="8" r="6.2"/><path d="M8 7.2v3.6M8 5.2v.1"/></svg>',
+};
+let dtab = 'info';
+const val = v => v ? `<span>${esc(v)}</span>` : '<span class="none">정보 없음</span>';
+
+function renderDetail(e) {
+  const mapSrc = e.venue_lat
+    ? `https://maps.google.com/maps?q=${e.venue_lat},${e.venue_lng}&z=15&output=embed`
+    : `https://maps.google.com/maps?q=${encodeURIComponent(e.venue_address || e.venue + ', New York')}&z=15&output=embed`;
+  const tabs = {
+    info: `
+      <div class="box irows body01r">
+        <div class="irow"><div class="k body01b">${ICON.location}주소</div>
+          <div class="v">${val(e.venue_address)}${e.venue_address ? `<br><button class="copy body02r" data-copy="${esc(e.venue_address)}">복사</button>` : ''}</div></div>
+        <div class="irow"><div class="k body01b">${ICON.duration}운영시간</div><div class="v">${val(e.venue_hours)}</div></div>
+        <div class="irow"><div class="k body01b">${ICON.phone}전화번호</div><div class="v">${val(e.venue_phone)}</div></div>
+      </div>
+      <p class="note body02r">${ICON.info}전시 장소는 변경될 수 있으므로 공식 홈페이지를 확인해주세요.</p>
+      ${e.description ? `<div class="box body01r">${esc(e.description)}</div>` : ''}`,
+    map: `<div class="map"><iframe src="${mapSrc}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="지도"></iframe></div>`,
+    review: `
+      <div class="box rv-head" style="padding:12px">
+        <p class="body01b">전시 리뷰<span style="color:var(--text-point);margin-left:4px">0</span></p>
+        <button class="rv-btn body01b" data-review>리뷰쓰기</button>
+      </div>
+      <p class="rv-empty body01r">아직 작성된 리뷰가 없습니다.</p>`,
+  };
+  const heroSrc = e.image_full || e.image_url;
+  document.getElementById('detail').innerHTML = `
+    <div class="dt-bar"><button data-back aria-label="뒤로가기">${ICON.back}</button></div>
+    <div class="hero">
+      <div class="ph">${esc(e.venue)}</div>
+      ${heroSrc ? `<img src="${esc(heroSrc)}" alt="전시 상세 이미지" referrerpolicy="no-referrer" onerror="this.remove()" style="position:absolute;inset:0">` : ''}
+      ${tag(e)}
+    </div>
+    <div class="sheet">
+      <section class="info">
+        <h1 class="headline">${esc(e.title)}</h1>
+        <div class="meta body01r"><p>${period(e)}</p><p>${esc(e.venue)}</p></div>
+        <a class="btn title02b" href="${esc(e.venue_homepage || e.url)}" target="_blank" rel="noopener">홈페이지 바로가기</a>
+      </section>
+      <nav class="dtabs title02b">
+        ${[['info', '상세 정보'], ['map', '지도'], ['review', '리뷰']].map(([k, l]) => `<button class="dtab ${k === dtab ? 'on' : ''}" data-dtab="${k}">${l}</button>`).join('')}
+      </nav>
+      <div class="tabbody">${tabs[dtab]}</div>
+      <p class="foot body02r" style="padding:24px 24px 0">출처: <a href="${esc(e.url)}" target="_blank" rel="noopener" style="text-decoration:underline">${e.source === 'official' ? '공식 사이트' : 'musa.guide'}</a></p>
+    </div>`;
+}
+
+function showDialog(open) {
+  const d = document.getElementById('dialog');
+  d.hidden = !open;
+  d.innerHTML = open ? `
+    <div class="dlg">
+      <p class="title02b">리뷰 쓰고 스탬프 받기</p><hr>
+      <p class="body01r">전시 리뷰를 작성하시면<br>해당 국가 스탬프가 자동 발급됩니다.</p>
+      <p class="body01r" style="margin-top:16px">리뷰를 작성하시겠습니까?</p>
+      <div class="btns"><button class="btn line title02b" data-dlg-close>취소</button><button class="btn title02b" data-dlg-close>리뷰 작성</button></div>
+    </div>` : '';
+}
+
+let homeScroll = 0;
+function route() {
+  const m = location.hash.match(/^#\/e\/(\d+)$/);
+  const e = m && all.find(x => x.id === +m[1]);
+  const home = document.getElementById('home'), detail = document.getElementById('detail');
+  if (e) {
+    if (!home.hidden) homeScroll = scrollY;
+    home.hidden = true; detail.hidden = false;
+    renderDetail(e); scrollTo(0, 0);
+  } else {
+    detail.hidden = true; home.hidden = false;
+    render(); scrollTo(0, homeScroll);
+  }
+}
+window.addEventListener('hashchange', () => { dtab = 'info'; route(); });
+
+document.addEventListener('click', ev => {
+  const t = ev.target.closest('[data-back],[data-dtab],[data-copy],[data-review],[data-dlg-close]');
+  if (!t) return;
+  if (t.dataset.back !== undefined) history.length > 1 ? history.back() : (location.hash = '');
+  if (t.dataset.dtab) { dtab = t.dataset.dtab; route(); }
+  if (t.dataset.copy) navigator.clipboard?.writeText(t.dataset.copy).then(() => { t.textContent = '복사됨'; });
+  if (t.dataset.review !== undefined) showDialog(true);
+  if (t.dataset.dlgClose !== undefined) showDialog(false);
+});
+
+fetch('nyc_exhibitions_2026-11-07.json').then(r => r.json()).then(d => {
+  all = d.exhibitions;
+  document.getElementById('foot').textContent = `기준일 ${dot(d.as_of)} · 뉴욕 전시 ${d.count}건 · 출처: 각 미술관 공식 사이트, musa.guide`;
+  route();
+});
+</script>
+</body>
+</html>

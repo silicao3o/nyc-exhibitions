@@ -223,6 +223,12 @@ def collect_city(f: Fetcher, city: str, as_of: date, months: int) -> list[dict]:
             venue_price=v.get('price', ''), venue_homepage=v.get('homepage', ''),
             source='musa.guide',
         ))
+    # 장소 페이지가 비어 국가를 못 얻은 전시는 같은 도시의 다수 국가로 채운다
+    common = Counter(r['country_code'] for r in rows if r['country_code']).most_common(1)
+    for r in rows:
+        if not r['country_code'] and common:
+            r['country_code'] = common[0][0]
+            r['country_ko'] = COUNTRY_KO.get(common[0][0], common[0][0])
     return rows
 
 

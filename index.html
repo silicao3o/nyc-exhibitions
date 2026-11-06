@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NYC Art · 뉴욕 전시</title>
+<title>Art World · 세계 전시</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
 <style>
   :root{
@@ -101,6 +101,34 @@
   .nav-center svg{width:26px;height:26px}
   .foot{padding:32px 16px 8px;color:var(--text-tertiary)}
 
+  .chips.sub{padding-top:8px}
+  .chips.sub .chip{height:30px;padding:0 14px}
+  .logo{width:auto}
+
+  /* DateFilterBottomSheet */
+  #sheet{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.4);display:flex;align-items:flex-end;justify-content:center}
+  #sheet[hidden]{display:none}
+  .sh{width:100%;max-width:412px;max-height:88vh;overflow-y:auto;background:var(--sub-lightgray);border-radius:16px 16px 0 0;padding:8px 16px 24px}
+  .sh-handle{display:block;width:40px;height:4px;border-radius:2px;background:var(--gray100);margin:0 auto 16px}
+  .sh-title{text-align:center;margin-bottom:20px}
+  .sh-box{background:var(--gray0);border-radius:8px;padding:16px;margin-bottom:12px}
+  .sh-row{display:flex;align-items:center;gap:8px}
+  .sh-row svg{width:20px;height:20px;flex:none}
+  .sh-select{flex:1;border:0;background:none;color:var(--text-point);font-family:inherit;margin-left:8px;appearance:none;outline:none}
+  .sh-val{color:var(--text-point);margin-left:8px;flex:1}
+  .sh-reset{color:var(--text-tertiary)}
+  .cal-w{display:grid;grid-template-columns:repeat(7,1fr);text-align:center;color:var(--text-tertiary);padding:16px 0 8px;border-bottom:1px solid var(--gray50)}
+  .cal{max-height:300px;overflow-y:auto}
+  .cal-m{text-align:center;padding:20px 0 12px}
+  .cal-g{display:grid;grid-template-columns:repeat(7,1fr);row-gap:6px;justify-items:center}
+  .cal-d{width:34px;height:34px;border-radius:17px}
+  .cal-d:disabled{color:var(--text-tertiary);cursor:default}
+  .cal-d.today{border:1px solid var(--gray100);background:var(--sub-lightgray)}
+  .cal-d.mid{background:var(--primary100);border-radius:6px}
+  .cal-d.sel{background:var(--primary300);color:#fff;border:0}
+  .sh-apply{margin-top:4px}
+  .sh-apply:disabled{background:var(--gray50);color:var(--text-tertiary);cursor:default}
+
   /* ExhibitionDetailScreen */
   .dt-bar{position:sticky;top:0;z-index:5;height:56px;background:var(--gray0);display:flex;align-items:center;padding:0 16px}
   .dt-bar svg{width:24px;height:24px;display:block}
@@ -146,10 +174,10 @@
 <div id="home">
   <header class="appbar">
     <div class="appbar-row">
-      <div class="logo">NYC Art</div>
+      <div class="logo">Art World</div>
       <div class="appbar-icons">
         <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-label="알림"><path d="M6 17V11a6 6 0 1 1 12 0v6l1.5 2h-15z"/><path d="M10 21h4"/></svg>
-        <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" aria-label="달력"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+        <button data-open-sheet aria-label="달력"><svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg></button>
         <svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round" aria-label="검색"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
       </div>
     </div>
@@ -159,7 +187,7 @@
     <button class="tab on" data-tab="foreign">해외전시</button>
     <button class="tab" data-tab="domestic">국내전시</button>
   </nav>
-  <div class="chips body01r" id="chips"></div>
+  <div id="chips"></div>
 
   <main id="body"></main>
   <p class="foot body02r" id="foot"></p>
@@ -174,15 +202,14 @@
 </div>
 <div id="detail" hidden></div>
 <div id="dialog" hidden></div>
+<div id="sheet" hidden data-sheet-bg></div>
 </div>
 
 <script>
-const TODAY = '2026-11-07';
-const BOROUGH_KO = {Manhattan:'맨해튼', Brooklyn:'브루클린', Queens:'퀸즈'};
 const HEART_ON = '<svg viewBox="0 0 14 14"><path fill="#F95353" d="M7 12.2 1.9 7.3A3 3 0 0 1 7 3.4a3 3 0 0 1 5.1 3.9z"/></svg>';
 const HEART_OFF = '<svg viewBox="0 0 14 14"><path fill="none" stroke="#fff" stroke-width="1.3" d="M7 12.2 1.9 7.3A3 3 0 0 1 7 3.4a3 3 0 0 1 5.1 3.9z"/></svg>';
 const ARROW = '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m8 5 5 5-5 5"/></svg>';
-const FEATURED = ['Museum of Modern Art (MoMA)','The Metropolitan Museum of Art','Solomon R. Guggenheim Museum','Whitney Museum of American Art','Brooklyn Museum','New Museum','The Frick Collection','MoMA PS1'];
+const DOMESTIC = 'KR';
 
 // 768px 버전이 없는 이미지는 256px로, 그것도 없으면 플레이스홀더를 노출한다
 function imgFallback(el) {
@@ -191,12 +218,15 @@ function imgFallback(el) {
 }
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const dot = d => d ? d.replaceAll('-', '.') : '';
-const period = e => e.start_date || e.end_date
-  ? `${dot(e.start_date)}${e.start_date ? ' - ' : '~ '}${dot(e.end_date) || e.end_note}`
-  : (e.end_note === 'ongoing' ? '상설' : e.end_note);
+const period = e => `${dot(e.start_date)}${e.start_date ? ' - ' : '~ '}${dot(e.end_date)}`;
 const likes = new Set(JSON.parse(localStorage.getItem('likes') || '[]'));
 
-let all = [], tab = 'foreign', borough = '전체', venue = null, day = TODAY;
+let all = [], TODAY = '', tab = 'foreign', country = '전체', city = '전체', venue = null, day = '';
+// 날짜 필터: 시트에서 고르는 중인 값(draft)과 적용된 값(applied)을 분리한다
+let range = { from: '', to: '' }, draft = { country: '전체', from: '', to: '' };
+
+const inTab = e => tab === 'domestic' ? e.country_code === DOMESTIC : e.country_code !== DOMESTIC;
+const place = e => tab === 'domestic' ? e.city_ko : e.country_ko;
 
 const img = (e, cls, inner = '') => `
   <div class="img ${cls}">
@@ -205,14 +235,14 @@ const img = (e, cls, inner = '') => `
     ${inner}
   </div>`;
 const like = (e, style) => `<button class="like" style="${style}" data-like="${e.id}" aria-label="좋아요">${likes.has(e.id) ? HEART_ON : HEART_OFF}</button>`;
-const country = (e, style) => `<span class="country body02b" style="${style}">${BOROUGH_KO[e.borough] || '뉴욕'}</span>`;
+const chipOf = (e, style) => `<span class="country body02b" style="${style}">${esc(place(e))}</span>`;
 const tag = e => e.status === 'upcoming' ? '<span class="tag up body02b">오픈예정</span>'
   : e.closing_soon ? '<span class="tag soon body02b">종료임박</span>' : '<span class="tag body02b">진행중</span>';
 
 const case1 = e => `
   <a class="card1" href="#/e/${e.id}">
     ${img(e, 'case1', `<div class="grad"></div>
-      ${country(e, 'left:10px;top:16px')}${like(e, 'right:16px;top:16px')}
+      ${chipOf(e, 'left:10px;top:16px')}${like(e, 'right:16px;top:16px')}
       <div class="info">
         <p class="title02b clamp2">${esc(e.title)}</p>
         <p class="body02r clamp1">${esc(e.venue)}</p>
@@ -221,14 +251,14 @@ const case1 = e => `
   </a>`;
 const case2 = e => `
   <a class="card2" href="#/e/${e.id}">
-    ${img(e, 'case2', country(e, 'left:8px;top:9px') + like(e, 'right:8px;top:9px'))}
+    ${img(e, 'case2', chipOf(e, 'left:8px;top:9px') + like(e, 'right:8px;top:9px'))}
     <p class="t body01b clamp2">${esc(e.title)}</p>
   </a>`;
 const case3 = e => `
   <a class="row" href="#/e/${e.id}">
     ${img(e, 'case3', like(e, 'right:8px;top:8px') + tag(e))}
     <div class="meta">
-      <p class="body01r" style="color:var(--text-point)">${BOROUGH_KO[e.borough] || '뉴욕'}</p>
+      <p class="body01r" style="color:var(--text-point)">${esc(tab === 'domestic' ? e.city_ko : `${e.country_ko} · ${e.city_ko}`)}</p>
       <p class="body01b clamp2">${esc(e.title)}</p>
       <p class="body02r clamp1" style="color:var(--text-tertiary);margin-top:4px">${esc(e.venue)}</p>
       <p class="body02r" style="color:var(--text-tertiary);margin-top:2px">${period(e)}</p>
@@ -237,47 +267,65 @@ const case3 = e => `
 const title = (t, more) => `<div class="section-title"><h2 class="title01b">${t}</h2>${more ? ARROW : ''}</div>`;
 
 const onView = (e, d) => (!e.start_date || e.start_date <= d) && (!e.end_date || e.end_date >= d);
+const overlaps = (e, from, to) => (!e.start_date || e.start_date <= to) && (!e.end_date || e.end_date >= from);
 const byEnd = (a, b) => (a.end_date || '9999').localeCompare(b.end_date || '9999');
+const byCount = (list, key) => Object.entries(list.reduce((m, e) => (m[e[key]] = (m[e[key]] || 0) + 1, m), {}))
+  .sort((a, b) => b[1] - a[1]).map(([k]) => k);
 
+const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const parse = s => new Date(s + 'T00:00:00');
+const md = s => { const d = parse(s); return `${d.getMonth() + 1}.${d.getDate()} (${'일월화수목금토'[d.getDay()]})`; };
 function weekDates() {
-  const t = new Date(TODAY + 'T00:00:00'), mon = new Date(t);
+  const t = parse(TODAY), mon = new Date(t);
   mon.setDate(t.getDate() - ((t.getDay() + 6) % 7));
   return [...Array(7)].map((_, i) => { const d = new Date(mon); d.setDate(mon.getDate() + i); return d; });
 }
-const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+
+// 탭 → 국가 → 도시 순으로 좁힌 목록
+const scoped = () => all.filter(e => inTab(e)
+  && (tab === 'domestic' || country === '전체' || e.country_ko === country)
+  && (city === '전체' || e.city_ko === city));
+
+function renderChips() {
+  const base = all.filter(inTab);
+  const chip = (v, cur, key) => `<button class="chip ${v === cur ? 'on' : ''}" data-${key}="${esc(v)}">${esc(v)}</button>`;
+  let html = '';
+  if (tab === 'foreign') {
+    html += `<div class="chips body01r">${['전체', ...byCount(base, 'country_ko')].map(v => chip(v, country, 'country')).join('')}</div>`;
+    const cities = country === '전체' ? [] : byCount(base.filter(e => e.country_ko === country), 'city_ko');
+    if (cities.length > 1) html += `<div class="chips sub body02r">${['전체', ...cities].map(v => chip(v, city, 'city')).join('')}</div>`;
+  } else {
+    const cities = byCount(base, 'city_ko');
+    html += `<div class="chips body01r">${['전체', ...cities].map(v => chip(v, city, 'city')).join('')}</div>`;
+  }
+  document.getElementById('chips').innerHTML = html;
+}
 
 function render() {
-  const chips = document.getElementById('chips'), body = document.getElementById('body');
-  if (tab === 'domestic') {
-    chips.innerHTML = '';
-    body.innerHTML = '<p class="empty body01r">진행중인 전시가 없습니다.</p>';
-    return;
-  }
-  const boroughs = ['전체', ...new Set(all.map(e => BOROUGH_KO[e.borough]))];
-  chips.innerHTML = boroughs.map(b => `<button class="chip ${b === borough ? 'on' : ''}" data-borough="${b}">${b}</button>`).join('');
-  const list = all.filter(e => borough === '전체' || BOROUGH_KO[e.borough] === borough);
-
+  renderChips();
+  const body = document.getElementById('body');
+  const list = scoped();
   const cur = list.filter(e => e.status === 'on_view');
-  const featured = cur.filter(e => e.image_url && FEATURED.includes(e.venue))
-    .sort((a, b) => FEATURED.indexOf(a.venue) - FEATURED.indexOf(b.venue) || byEnd(a, b));
-  const pick = []; const seenVenue = {};
-  for (const e of featured) if ((seenVenue[e.venue] = (seenVenue[e.venue] || 0) + 1) <= 2) pick.push(e);
-  const upcoming = list.filter(e => e.status === 'upcoming').sort((a, b) => a.start_date.localeCompare(b.start_date));
+  if (!list.length) { body.innerHTML = '<p class="empty body01r">진행중인 전시가 없습니다.</p>'; return; }
+
+  // 추천: 이미지 있는 진행 중 전시를 장소당 1개, 최근 개막 순
+  const seen = new Set(), pick = [];
+  for (const e of cur.filter(e => e.image_url).sort((a, b) => b.start_date.localeCompare(a.start_date)))
+    if (!seen.has(e.venue) && pick.length < 12) { seen.add(e.venue); pick.push(e); }
+  const upcoming = list.filter(e => e.status === 'upcoming').sort((a, b) => a.start_date.localeCompare(b.start_date)).slice(0, 20);
   const daily = list.filter(e => onView(e, day)).sort(byEnd).slice(0, 5);
-  const venues = [...new Set(cur.map(e => e.venue))].sort((a, b) => cur.filter(e => e.venue === b).length - cur.filter(e => e.venue === a).length);
+  const venues = byCount(cur, 'venue');
   if (!venues.includes(venue)) venue = venues[0];
   const byVenue = cur.filter(e => e.venue === venue).sort(byEnd);
 
   body.innerHTML = `
     <section class="section">
-      <div class="hscroll">${(pick.length ? pick : cur.slice(0, 8)).map(case1).join('') || '<p class="empty body01r">오늘의 전시 추천이 존재하지 않습니다.</p>'}</div>
+      <div class="hscroll">${pick.map(case1).join('') || '<p class="empty body01r">오늘의 전시 추천이 존재하지 않습니다.</p>'}</div>
     </section>
-
     <section class="section">
       ${title('곧 오픈하는 전시')}
       <div class="hscroll">${upcoming.map(case2).join('') || '<p class="empty body01r">예정된 전시가 없습니다.</p>'}</div>
     </section>
-
     <section class="section">
       ${title('이번주 전시 일정', true)}
       <div class="days">${weekDates().map(d => `
@@ -287,32 +335,70 @@ function render() {
         </button>`).join('')}</div>
       <div class="list">${daily.map(case3).join('') || '<p class="empty body01r">해당 날짜에 진행중인 전시가 존재하지 않습니다.</p>'}</div>
     </section>
-
-    <section class="section">
+    ${venues.length ? `<section class="section">
       ${title('미술관별 전시')}
-      <div class="chips body01r" style="padding-top:0">${venues.map(v => `<button class="chip ${v === venue ? 'on' : ''}" data-venue="${esc(v)}">${esc(v)}</button>`).join('')}</div>
+      <div class="chips body01r" style="padding-top:0">${venues.slice(0, 30).map(v => `<button class="chip ${v === venue ? 'on' : ''}" data-venue="${esc(v)}">${esc(v)}</button>`).join('')}</div>
       <div class="list">${byVenue.map(case3).join('')}</div>
-    </section>`;
+    </section>` : ''}`;
 }
 
-document.addEventListener('click', ev => {
-  const t = ev.target.closest('[data-like],[data-borough],[data-venue],[data-day],[data-tab]');
-  if (!t) return;
-  ev.preventDefault();
-  if (t.dataset.like) {
-    const id = +t.dataset.like;
-    likes.has(id) ? likes.delete(id) : likes.add(id);
-    localStorage.setItem('likes', JSON.stringify([...likes]));
-  }
-  if (t.dataset.borough) borough = t.dataset.borough;
-  if (t.dataset.venue) venue = t.dataset.venue;
-  if (t.dataset.day) day = t.dataset.day;
-  if (t.dataset.tab) {
-    tab = t.dataset.tab;
-    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === t));
-  }
-  render();
-});
+/* 국가(지역) 및 날짜 선택 시트 */
+const ICON_GLOBE = '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.4"><circle cx="10" cy="10" r="7.5"/><path d="M2.5 10h15M10 2.5c2.2 2.2 3 4.7 3 7.5s-.8 5.3-3 7.5c-2.2-2.2-3-4.7-3-7.5s.8-5.3 3-7.5z"/></svg>';
+const ICON_CAL = '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.4" stroke-linecap="round"><rect x="3" y="4.5" width="14" height="12.5" rx="1.5"/><path d="M3 8.5h14M7 3v3M13 3v3"/></svg>';
+
+function openSheet() {
+  draft = { country: tab === 'domestic' ? city : country, from: range.from, to: range.to };
+  renderSheet();
+}
+function renderSheet() {
+  const el = document.getElementById('sheet');
+  el.hidden = false;
+  const domestic = tab === 'domestic';
+  const options = ['전체', ...byCount(all.filter(inTab), domestic ? 'city_ko' : 'country_ko')];
+  const months = [0, 1, 2].map(i => { const d = parse(TODAY); d.setDate(1); d.setMonth(d.getMonth() + i); return d; });
+  const cell = s => {
+    const sel = s === draft.from || s === draft.to;
+    const mid = draft.from && draft.to && s > draft.from && s < draft.to;
+    const past = s < TODAY;
+    return `<button class="cal-d body01b ${sel ? 'sel' : ''} ${mid ? 'mid' : ''} ${s === TODAY ? 'today' : ''}" ${past ? 'disabled' : ''} data-pick="${s}">${parse(s).getDate()}</button>`;
+  };
+  const month = m => {
+    const first = new Date(m), days = new Date(m.getFullYear(), m.getMonth() + 1, 0).getDate();
+    const blanks = '<span></span>'.repeat(first.getDay());
+    const cells = [...Array(days)].map((_, i) => cell(iso(new Date(m.getFullYear(), m.getMonth(), i + 1)))).join('');
+    return `<p class="cal-m title02b">${m.getFullYear()}. ${m.getMonth() + 1}</p><div class="cal-g">${blanks}${cells}</div>`;
+  };
+  el.innerHTML = `
+    <div class="sh">
+      <span class="sh-handle"></span>
+      <p class="title02b sh-title">${domestic ? '지역' : '국가'} 및 날짜 선택</p>
+      <div class="sh-box sh-row body01b">${ICON_GLOBE}<span>${domestic ? '지역' : '국가'}</span>
+        <select class="sh-select body01b" data-draft-country>${options.map(o => `<option ${o === draft.country ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>
+      </div>
+      <div class="sh-box">
+        <div class="sh-row body01b">${ICON_CAL}<span>날짜</span>
+          <span class="sh-val">${draft.from ? `${md(draft.from)} - ${draft.to ? md(draft.to) : ''}` : ''}</span>
+          ${draft.from ? '<button class="sh-reset body02r" data-reset>초기화</button>' : ''}
+        </div>
+        <div class="cal-w body02r">${[...'일월화수목금토'].map(d => `<span>${d}</span>`).join('')}</div>
+        <div class="cal">${months.map(month).join('')}</div>
+      </div>
+      <button class="btn title02b sh-apply" data-apply ${draft.from ? '' : 'disabled'}>적용하기</button>
+    </div>`;
+}
+function closeSheet() { const el = document.getElementById('sheet'); el.hidden = true; el.innerHTML = ''; }
+
+/* 날짜 필터 결과 화면 (datefilterresult) */
+function renderResults() {
+  const from = range.from, to = range.to || range.from;
+  const list = scoped().filter(e => overlaps(e, from, to)).sort(byEnd);
+  const where = tab === 'domestic' ? (city === '전체' ? '국내 전체' : city) : (country === '전체' ? '해외 전체' : country);
+  document.getElementById('detail').innerHTML = `
+    <div class="dt-bar"><button data-back aria-label="뒤로가기">${ICON.back}</button>
+      <p class="title02b" style="margin-left:8px">${esc(where)} · ${md(from)}${to !== from ? ` - ${md(to)}` : ''}</p></div>
+    <p class="body01b" style="padding:8px 16px 0">총 <span style="color:var(--text-point)">${list.length}</span>개</p>
+    <div class="list" style="padding-bottom:48px">${list.map(case3).join('') || '<p class="empty body01r">해당 날짜에 진행중인 전시가 존재하지 않습니다.</p>'}</div>`;
+}
 
 const ICON = {
   back: '<svg viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>',
@@ -357,7 +443,7 @@ function renderDetail(e) {
     <div class="sheet">
       <section class="info">
         <h1 class="headline">${esc(e.title)}</h1>
-        <div class="meta body01r"><p>${period(e)}</p><p>${esc(e.venue)}</p></div>
+        <div class="meta body01r"><p>${period(e)}</p><p>${esc(e.venue)}</p><p style="color:var(--text-tertiary)">${esc(e.city_ko)}, ${esc(e.country_ko)}</p></div>
         <a class="btn title02b" href="${esc(e.venue_homepage || e.url)}" target="_blank" rel="noopener">홈페이지 바로가기</a>
       </section>
       <nav class="dtabs title02b">
@@ -380,15 +466,59 @@ function showDialog(open) {
     </div>` : '';
 }
 
+document.addEventListener('click', ev => {
+  const t = ev.target.closest('[data-like],[data-country],[data-city],[data-venue],[data-day],[data-tab],[data-open-sheet],[data-pick],[data-reset],[data-apply],[data-sheet-bg]');
+  if (!t) return;
+  ev.preventDefault();
+  const d = t.dataset;
+  if (d.like) {
+    const id = +d.like;
+    likes.has(id) ? likes.delete(id) : likes.add(id);
+    localStorage.setItem('likes', JSON.stringify([...likes]));
+    t.innerHTML = likes.has(id) ? HEART_ON : HEART_OFF;
+    return;
+  }
+  if (d.openSheet !== undefined) return openSheet();
+  if (d.sheetBg !== undefined && ev.target === t) return closeSheet();
+  if (d.pick) {
+    // 첫 탭은 시작일, 두 번째 탭은 종료일 (시작일보다 앞이면 시작일을 다시 잡는다)
+    if (!draft.from || draft.to || d.pick < draft.from) Object.assign(draft, { from: d.pick, to: '' });
+    else draft.to = d.pick;
+    return renderSheet();
+  }
+  if (d.reset !== undefined) { Object.assign(draft, { from: '', to: '' }); return renderSheet(); }
+  if (d.apply !== undefined) {
+    if (tab === 'domestic') city = draft.country; else { country = draft.country; city = '전체'; }
+    range = { from: draft.from, to: draft.to || draft.from };
+    closeSheet();
+    location.hash = '#/results';
+    return;
+  }
+  if (d.country) { country = d.country; city = '전체'; venue = null; }
+  if (d.city) { city = d.city; venue = null; }
+  if (d.venue) venue = d.venue;
+  if (d.day) day = d.day;
+  if (d.tab) {
+    tab = d.tab; country = '전체'; city = '전체'; venue = null;
+    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('on', x === t));
+  }
+  render();
+});
+document.addEventListener('change', ev => {
+  if (ev.target.matches('[data-draft-country]')) draft.country = ev.target.value;
+});
+
 let homeScroll = 0;
 function route() {
   const m = location.hash.match(/^#\/e\/(\d+)$/);
   const e = m && all.find(x => x.id === +m[1]);
+  const results = location.hash === '#/results' && range.from;
   const home = document.getElementById('home'), detail = document.getElementById('detail');
-  if (e) {
+  if (e || results) {
     if (!home.hidden) homeScroll = scrollY;
     home.hidden = true; detail.hidden = false;
-    renderDetail(e); scrollTo(0, 0);
+    e ? renderDetail(e) : renderResults();
+    scrollTo(0, 0);
   } else {
     detail.hidden = true; home.hidden = false;
     render(); scrollTo(0, homeScroll);
@@ -406,9 +536,11 @@ document.addEventListener('click', ev => {
   if (t.dataset.dlgClose !== undefined) showDialog(false);
 });
 
-fetch('nyc_exhibitions_2026-11-07.json').then(r => r.json()).then(d => {
+fetch('data/exhibitions.json').then(r => r.json()).then(d => {
   all = d.exhibitions;
-  document.getElementById('foot').textContent = `기준일 ${dot(d.as_of)} · 뉴욕 전시 ${d.count}건 · 출처: 각 미술관 공식 사이트, musa.guide`;
+  TODAY = day = d.as_of;
+  const countries = new Set(all.map(e => e.country_code)).size, cities = new Set(all.map(e => e.city)).size;
+  document.getElementById('foot').textContent = `기준일 ${dot(d.as_of)} · ${countries}개국 ${cities}개 도시 전시 ${d.count}건 · 출처: musa.guide`;
   route();
 });
 </script>

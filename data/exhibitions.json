@@ -20647,7 +20647,15 @@
    "venue_phone": "",
    "venue_price": "$25",
    "venue_homepage": "https://www.themorgan.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Murray Hill",
+   "price": "$25",
+   "official_url": "https://www.themorgan.org/exhibitions/luminous-color",
+   "long_description": "-   [Graphic Devotions: Late Medieval European Blockbooks6 November 2026 – 16 May 2027](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/graphic-devotions-late-medieval-european-blockbooks)\n-   [William Blake: Paradise Lost26 February 2027 – 23 May 2027](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/william-blake-paradise-lost)\n-   [Ragtime: Cakewalk in Pianoland13 November 2026 – 13 June 2027](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/ragtime-cakewalk-in-pianoland)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": ""
   },
   {
    "id": 795,
@@ -20670,10 +20678,34 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "$20",
+   "official_url": "https://www.brooklynmuseum.org/exhibitions/common-sense",
+   "long_description": "The rest is small: two of Thomas Paine's texts, a 1792 leatherbound Common Sense and a pamphlet of The American Crisis, no. 1, set against nine contemporary works. Öyvind Fahlström, Joyce Kozloff, Hank Willis Thomas and Kara Walker reframe American history, and Donald Moffett and Maynard Monrow made new text pieces with one message: power lies with us.\n\nIt is included in general admission, which is pay what you can at the desk (suggested $20, free for ages 19 and under). It closes November 8. Moffett's sound installation IMPEACH is the companion show.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Commons",
+     "text": "Look for the riderless cork horse, nearly 13 feet tall, shaped like an equestrian statue and built to collect visitors' pinned messages and keepsakes."
+    },
+    {
+     "title": "Paine on paper",
+     "text": "A 1792 leatherbound edition of Common Sense and a pamphlet of The American Crisis, no. 1, the two texts the show is built around."
+    },
+    {
+     "title": "Kozloff's sing-along collage",
+     "text": "Laboring slaves, Civil War soldiers, cotton fields and steamships, scattered with lyrics from slave songs and hymns taken from 1920s game boards her mother gave her."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 796,
@@ -20699,7 +20731,19 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://aperture.org/visit/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper West Side",
+   "price": "Free",
+   "official_url": "https://aperture.org/exhibitions/splendido-as-seen-by-chris-rhodes/",
+   "long_description": "Benedictine monks built the hilltop house above Portofino because they wanted to live as close to the sky as they could. It is now Belmond's Hotel Splendido, and in 2025 Belmond commissioned Chris Rhodes to photograph it. Twenty-seven of those pictures hang in Aperture's gallery on Columbus Avenue.\n\nRhodes moves between the picturesque and the everyday: the interiors, the gardens and the bay, and the staff and guests in between. Belmond's own feature on the series picks out fruit on a breakfast table and an empty tennis court alongside the views. You come for the Riviera and get its offbeat side as much as its scenery.\n\nIt's free and runs for twelve days only, 4 to 15 November, closed Monday and Tuesday. Belmond commissioned the work and is also the presenting sponsor of Aperture's 2026 Gala. The book of the photographs is on sale in the Aperture bookstore.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 797,
@@ -20722,10 +20766,34 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5912",
+   "long_description": "Huyghe worked with neuroscientists at Kamitani Lab (Kyoto University) and ATR. A person imagined images in an fMRI scanner, and the network turned the scans into thousands of visual interpretations. They play on freestanding screens spread through the Sculpture Garden, with sound. A sensor tracks where visitors look, and simulated cancer-cell mutations feed in too, together deciding which images appear next. The Times Square billboards a few blocks north ignore you, but this is the one screen in Midtown that notices where you look.\n\nIt is outdoors, so dress for the weather. It runs until 29 November and is included with general admission, $30 for adults. Expect fragments rather than finished pictures.",
+   "editors_pick": "Freestanding screens across MoMA's sculpture garden generate hallucinatory images in real time from machine learning and fMRI-derived data. The one MoMA show where you keep your coat on.",
+   "look_for": [
+    {
+     "title": "The gaze-reading screens",
+     "text": "A sensor picks up where visitors are looking, and the imagery on the freestanding screens changes in real time as a result."
+    },
+    {
+     "title": "The tractor-or-oil-rig horizon",
+     "text": "One visitor saw a blurry horizon with what looked like a tractor or an oil rig in the centre, the network's reading of a brain scan."
+    },
+    {
+     "title": "The cancer-cell sequencing",
+     "text": "Simulated cancer-cell mutations help decide which images come next, so the sequence on the screens is never a fixed loop."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 798,
@@ -20748,10 +20816,43 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen",
+   "long_description": "The chapters run from water to the cosmos by way of skeletons, fear and growth, with fossils, coral, beetles and a 1732 Ovid set beside the dresses. In the rotunda the museum rebuilt her Amsterdam atelier: you look down microscopes and handle fabric samples, which Interview's writer said \"feels almost like a science museum.\" Near the end, a wall of photos shows who has worn her work, from Lady Gaga to Tilda Swinton.\n\nThe Philadelphia Inquirer's Bedatri Choudhury called it \"an exercise in constant wonder and awe.\" Timed tickets are $30 for adults, include general admission and enter every 15 minutes; members go free. It closes December 6.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Living Algae dress",
+     "text": "Look for the 2025 look holding about 125 million bioluminescent algae in seawater, which light up blue as the wearer moves."
+    },
+    {
+     "title": "The Skeleton dress",
+     "text": "A 2011 copper-plated, 3D-printed dress with its ribs splayed open, shown beside a 180-million-year-old marine reptile fossil; the Inquirer found it \"at once exquisite and slightly eerie\"."
+    },
+    {
+     "title": "Bird",
+     "text": "Hand-sewn layers of laser-cut silicone over ivory cotton, with three 3D-printed bird skulls hidden among the \"feathers\"."
+    },
+    {
+     "title": "Seed of Narcissus",
+     "text": "In the atelier rotunda, a crystal cocoon coated in beeswax honeycomb that thousands of bees built over several months."
+    },
+    {
+     "title": "The Cosmic Bloom gallery",
+     "text": "Multicolored dresses hang from the ceiling, some mannequins upside down, to a soundscape by Salvador Breed."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 799,
@@ -20774,10 +20875,38 @@
    "venue_lat": 40.7458028,
    "venue_lng": -74.0070167,
    "venue_hours": "월 휴관\n화-토 10:00 - 18:00\n일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 727-1965",
    "venue_price": "Free",
    "venue_homepage": "https://www.davidzwirner.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.davidzwirner.com/exhibitions/2026/yoshitomo-nara",
+   "long_description": "You walk into the 533 West 19th Street gallery and thirteen heads look back. Each is a palm-sized clay head Nara modelled by hand, enlarged ten times in bronze and coated in matte white urethane. The press release says they recall the snow \"monsters\" that heavy snowfall built in the rural northern Japan of his childhood. They are the only snowmen in Manhattan this winter that won't end up as gray curb slush.\n\nOne block over at 537 West 20th Street are new 2026 paintings: front-facing portraits with direct gazes, in a palette the gallery says has turned more muted over the past year. Others start as colored-pencil sketches under thin acrylic washes, with tear-filled eyes. Large monochrome drawings in industrial paint stick sit beside works from the 1980s that Nara picked himself.\n\nEntry is free, Tuesday to Saturday, 10am to 6pm, and the opening reception on 5 November, 6 to 8pm, is open to the public.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Thirteen white snow-monster heads",
+     "text": "At 19th Street, look for bronze heads ten times the size of their hand-molded clay originals, their matte white surfaces catching light and shadow."
+    },
+    {
+     "title": "The new 2026 portraits",
+     "text": "At 20th Street, front-facing figures stare straight at you through muted, layered color and soft, diffused brushwork."
+    },
+    {
+     "title": "Pencil-and-wash paintings",
+     "text": "Colored-pencil drawings show through translucent acrylic washes, with figures in natural poses and tear-filled eyes."
+    },
+    {
+     "title": "Large paint-stick drawings",
+     "text": "Big monochrome drawings in industrial oil-based paint stick, all bold line, unlike the hazy new paintings beside them."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 800,
@@ -20803,7 +20932,40 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://gagosian.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://gagosian.com/exhibitions/2026/brice-marden-i-am-plane-image/",
+   "long_description": "This is the first Marden survey in New York in twenty years, with loans from the Art Institute of Chicago and the Whitney. It starts with Nebraska (1966), painted after a cross-country trip, and ends with The Dance and Lingerie (2022 to 23), his last paintings. In between, geometry gives way to calligraphic networks drawn from Asian art. The Inferno review notes that \"a gray can contain warmth, dirt, violet, green\", which also describes the Hudson on a November afternoon, so walk west afterwards and check.\n\nVasili Kaliman wrote that \"painting does not get much better than this\". Admission is free. The Chelsea galleries are open Tuesday to Saturday, 10am to 6pm, and the show runs to 12 December.",
+   "editors_pick": "From Nebraska (1966) to Marden's last paintings of 2022–23, with the six-panel Propitious Garden of Plane Image stretched across 24 feet. Loans from the Art Institute of Chicago and the Whitney, in a free Chelsea gallery.",
+   "look_for": [
+    {
+     "title": "Nebraska (1966)",
+     "text": "The earliest painting in the show, based on Midwestern landscape from a cross-country trip; Marden kept it and hung it in his home."
+    },
+    {
+     "title": "Summer Table (1972-73)",
+     "text": "Painted around his time on the Greek island of Hydra, in a brighter palette, with the beeswax-and-turpentine oil surface at its clearest."
+    },
+    {
+     "title": "Study for the Muses (Eagles Mere Version) (1991-99)",
+     "text": "A large calligraphic painting made in his Pennsylvania studio, its colours echoing the woodland outside."
+    },
+    {
+     "title": "The Propitious Garden of Plane Image, Second Version (2000-06)",
+     "text": "Six panels, 72 by 288 inches overall, moving through a colour progression taken from Chinese garden tradition."
+    },
+    {
+     "title": "The Dance and Lingerie (2022-23)",
+     "text": "His last two large paintings, made in his Tivoli studio and shown together as in his final Gagosian show in 2023."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 801,
@@ -20826,10 +20988,40 @@
    "venue_lat": 40.7458028,
    "venue_lng": -74.0070167,
    "venue_hours": "월 휴관\n화-토 10:00 - 18:00\n일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 727-1965",
    "venue_price": "Free",
    "venue_homepage": "https://www.davidzwirner.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.davidzwirner.com/exhibitions/2026/jem-perucchini",
+   "long_description": "In Sospiro (2026), the painting the show is named after, a young figure with cropped dark hair looks sideways out of a speckled emerald-green field, dressed in the same green. The title is Italian for \"sigh\", which Perucchini calls \"the passage between the inner self and the external world\".\n\nThis is the Milan-based painter's first show in the US: new paintings of single figures and pairs, plus Icarus, Narcissus, Inanna and Gilgamesh, often under a glowing moon or sun. He sprays the canvases with an oil-based emulsion, which gives them their mottled skin. The two graphite drawings, each of a lone figure at a chessboard, are the first drawings he has shown in public. In Washington Square Park, a lone player at a chessboard is waiting for you to sit down.\n\nThere are no reviews yet, so go for the jewel-toned color and the slow, sidelong figures. Entry is free at 52 Walker Street in Tribeca, and the opening reception is Friday 6 November, 6 to 8pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Sospiro (2026)",
+     "text": "The title painting: a young figure with cropped dark hair glances sideways out of a speckled emerald-green ground, wearing the same green."
+    },
+    {
+     "title": "The two chess drawings",
+     "text": "His largest works on paper so far, in graphite, each showing one figure alone at a game of chess, and the first drawings he has shown in public."
+    },
+    {
+     "title": "The sprayed surfaces",
+     "text": "Get close to the canvases to see the mottled, patina-like finish he builds by spraying them with an oil-based emulsion."
+    },
+    {
+     "title": "The mythic figures",
+     "text": "Look for Icarus, Narcissus, Inanna and Gilgamesh among the new paintings, cast as the lithe, youthful figures he paints from imagination."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days",
+    "[Where to see Jem Perucchini now →](https://www.musa.guide/en/discover/artists/jem-perucchini)"
+   ],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 802,
@@ -20852,10 +21044,22 @@
    "venue_lat": 40.7487,
    "venue_lng": -74.0064,
    "venue_hours": "월-목 10:00 - 18:00\n금 10:00 - 16:00\n토-일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 421-3292",
    "venue_price": "Free",
    "venue_homepage": "https://www.pacegallery.com/galleries/new-york/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.pacegallery.com/exhibitions/li-hei-di-the-year-of-mud/",
+   "long_description": "Li Hei Di kept thinking about Nüwa, the Chinese goddess believed to have made people by dipping a rope in muddy water and swinging it, each flying drop landing as a person. Over a year of personal change, Li pictured their body as one of those drops. These new paintings came out of that year, and Li calls them \"giant listeners\" that held them through it.\n\nThe figures never settle, sliding between figuration and abstraction in a palette Pace calls almost shimmering, forms surfacing and receding. The hang is planned so that different works and pairings come into view as you move through the space. Anyone who has been sprayed by a cab on Tenth Avenue in December knows half of Nüwa's method.\n\nIt's Li's first solo show with Pace in New York, and no one has reviewed it yet. Entry is free at Pace's Chelsea building, 540 West 25th Street, from 6 November to 19 December, with an opening reception on 5 November from 6 to 8pm.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "Cheap Culture",
+    "Going Solo",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 803,
@@ -20881,7 +21085,32 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://gagosian.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://gagosian.com/exhibitions/2026/bea-scaccia-groomed/",
+   "long_description": "The other six paintings work the same way. You look for figures and find wigs, costume jewelry, zippers, bows and faux fur bundled into puppet-like limbs in fishnet tights, trying to sit on chairs, climb ladders or lift dumbbells and never quite managing. Scaccia mixes gesso into acrylic to mute the colour, so every scene reads as night, lit by fringed lamps and precariously placed candles. It is the only place on Park Avenue where the accessories do the yoga.\n\nThe gallery points to Hans Bellmer's dolls, Mike Kelley and Sarah Lucas, so come if those are your references. Entry is free at Park & 75, 821 Park Avenue, Tuesday to Saturday 10am to 6pm, until 23 December.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Heels over Head, or Pillow Talk (2026)",
+     "text": "The nine-foot diptych where Olympia's reclining nude becomes a heap of cloth and pillows on a bed, faceless but still holding up a book."
+    },
+    {
+     "title": "The figures that can't sit down",
+     "text": "Look for surrogate bodies hovering over chairs without quite sitting, clutching dumbbells and twisted into yoga-like poses."
+    },
+    {
+     "title": "The ladder paintings",
+     "text": "Cloth and accessories draped over ladders, climbing nowhere and hanging like marionettes."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 804,
@@ -20904,10 +21133,22 @@
    "venue_lat": 40.7487,
    "venue_lng": -74.0064,
    "venue_hours": "월-목 10:00 - 18:00\n금 10:00 - 16:00\n토-일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 421-3292",
    "venue_price": "Free",
    "venue_homepage": "https://www.pacegallery.com/galleries/new-york/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.pacegallery.com/exhibitions/david-byrne-stairwell-drawings/",
+   "long_description": "The Talking Heads co-founder has been drawing since art school, and first showed with Pace in 2003. He told Artnet in January that a drawing expresses an idea \"quickly and immediately\", before reworking makes it more seductive and loses that. It's the rare Chelsea show where the elevator is the wrong way in.\n\nThe catch is that it's easy to miss: one visitor guide reckons half of Pace's visitors never see it. Walk up from the first floor. The stairwell closes while Pace installs new shows, as it did this summer until 10 September. Entry is free, and Pace lists the run to 31 December 2026 but says the drawings stay indefinitely.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 805,
@@ -20930,10 +21171,42 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5906",
+   "long_description": "About 450 drawings, models, photographs and films follow, most never shown publicly, from seven countries between the late 1950s and the early 1980s. The rooms move from dams and skyscrapers to trade fairs, then universities. You'll want to lean in on the reconstructed models: Architectural Record's critic got close enough that a docent asked for a step back. Midtown took the glass box as delivered; western Africa sent it back with edits.\n\nDomus called it \"a powerful, long-overdue chronicle\". Architectural Record rated the last rooms, on trade fairs and universities, the strongest, but found the show \"often avoids defining the intellectual concepts that made liberation meaningful\". It's in the third-floor Menschel Galleries, included with $30 admission, until January 2, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The La Pyramide model",
+     "text": "A model rebuilt by Cooper Union students shows Rinaldo Olivieri's Abidjan tower with its stepped pyramid facades and louvres angled against the sun."
+    },
+    {
+     "title": "Dakar's CICES trade fair",
+     "text": "Look for the triangle motif its French architects repeated at every level, from the site plan down to the cross-section of the handrails."
+    },
+    {
+     "title": "Jean Léon's spaceship auditorium",
+     "text": "His concrete auditorium for Lycée Mamie Adjoua, a girls' school in Yamoussoukro, looks ready for take-off, shown beside drawings from his sketchbooks."
+    },
+    {
+     "title": "Senghor's unbuilt Musée des Civilisations Noires",
+     "text": "Drawings and an original model for the museum Senegal's president never got to build sit in a small gallery between the fairs and the universities."
+    },
+    {
+     "title": "James Barnor's trade-fair photographs",
+     "text": "His pictures of the Africa Pavilion at the 1967 Ghana International Trade Fair in Accra hang in the event-architecture room."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 806,
@@ -20956,10 +21229,43 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/tone",
+   "long_description": "Everything here comes from the Studio Museum's own collection: about twenty works in black, white and the values between, from an undated daguerreotype to an embossed paper piece Chiffon Thomas made this year. Not all of it is photography. You also get Larry Walker in charcoal, a Chris Ofili silkscreen, a Yiadom-Boakye oil and a Paul Anthony Smith drawn in graphite on stoneware. Zanele Muholi's self-portrait was made on 116th Street, nine blocks south, if you want to see it in colour afterwards.\n\nNo critic has reviewed it yet. Admission is pay-what-you-can ($16 suggested), free on Sundays and for under-16s, and the museum stays open until 9pm on Fridays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Kerry James Marshall, Naomi",
+     "text": "Look at the highlights: Marshall swapped the photograph's whites for tints of purple and soaked the shadows in blue-black."
+    },
+    {
+     "title": "Glenn Ligon, Stranger #86",
+     "text": "Coal dust mixed into oil stick and gesso builds a field of very dark black, from a series named after Baldwin's \"Stranger in the Village\"."
+    },
+    {
+     "title": "An unidentified daguerreotype",
+     "text": "A seated Black woman with a steady gaze, her dark dress and pale scarf on a silver plate that tarnish has turned warm sepia."
+    },
+    {
+     "title": "Gary Simmons, Lean / To",
+     "text": "A wooden shack drawn in black lines of different weights, then smudged and erased with cartoon speed lines so it seems to be disappearing."
+    },
+    {
+     "title": "Lorna Simpson, Appeared",
+     "text": "Figures from 1950s to 1970s Ebony and Jet hair ads surface and recede through washes of three different blues, alongside her recurring iceberg."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Evening Visits",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 807,
@@ -20982,10 +21288,21 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/a-sustained-becoming-studio-museum-artists-in-residence-2026",
+   "long_description": "All three start from the figure, then go separate ways. Pharr builds fluid, ambiguous mixed-media figures that resist naturalistic likeness. Quamina makes monumental prints and collaged graphite drawings out of a childhood spent between the Caribbean, South America and New York. Simmons layers acrylic, oil, airbrush and wax, sampling music, photographs and viral content into scenes of masculinity and youthful play. That is a better use of viral content than the screenshots folder you will never open.\n\nNo critic has reviewed it yet. The museum describes real and otherworldly images that evoke remembering or dreaming. It runs to 3 January 2027, with late hours until 9pm on Fridays. Admission is pay-what-you-can, $16 suggested for adults.",
+   "editors_pick": "A year of studio work by the 2026 artists in residence, Derriann Pharr, Simonette Quamina and Taylor Simmons, among the first shows in the Studio Museum's new Adjaye building: figurative work on cultural memory and time.",
+   "look_for": [],
+   "good_for": [
+    "Evening Visits",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 808,
@@ -21008,10 +21325,42 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
+   "long_description": "Curators Massimiliano Gioni and Gary Carrion-Murayari spread nearly four decades across two floors, mostly in near-darkness. Love Is the Message, The Message Is Death, his best-known video, sits in a small side gallery where its song is barely audible over the other videos' screams and rumbles. Carrion-Murayari told Arts Fuse the show is \"not only images of Black death and trauma; there's also images of Black creativity.\"\n\nAdmission is $25, with pay-what-you-wish hours on Thursday evenings. Two videos run long, AGHDRA at 1 hour 14 minutes and akingdoncomethas at 1 hour 45, so you won't see everything in one visit.",
+   "editors_pick": "Arthur Jafa's first US museum survey, close to four decades of work, including Love Is the Message, the Message Is Death, his seven-minute montage of Black American life cut to Kanye West's Ultralight Beam.",
+   "look_for": [
+    {
+     "title": "Monster",
+     "text": "A 1988 self-portrait of Jafa pointing his camera at a mirror and looking up, so his reflection and the viewer's gaze meet."
+    },
+    {
+     "title": "MBD\\_Trans Am",
+     "text": "A Pontiac Trans Am, part of it crushed and left beside the intact front half, with a booming sound that ARTnews calls both alluring and repellent."
+    },
+    {
+     "title": "Notebooks",
+     "text": "A hallway of binders holding images cut from books and magazines; one pairs an MF DOOM album ad with a Cindy Sherman photograph of her in a silvery mask."
+    },
+    {
+     "title": "The Last Wave",
+     "text": "A wall-filling mural where the Alien Xenomorph sits beside a solar eclipse, a New Order album cover, Michael Jackson performing and Billie Holiday in her coffin."
+    },
+    {
+     "title": "AGHDRA and the Picture Unit",
+     "text": "In a large dim gallery, a computer-generated ocean full of broken rocks stutters and reverses, next to a walk-in maze whose walls are lined with images, including white eyes peering from a void."
+    }
+   ],
+   "good_for": [
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 809,
@@ -21034,10 +21383,35 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/there-are-no-words-si-lewens-parade",
+   "long_description": "The Parade is 63 charcoal, pencil and ink drawings Si Lewen made around 1950, a wordless novel after Frans Masereel's woodcuts. There are no captions: \"just the picture itself is the narrative,\" Lewen said. You read it by walking around the gallery, and curator Maria Castro describes sparse scenes of small groups giving way to dense, dark, chaotic ones. Lewen, a Jewish refugee from Germany, went back as one of the Ritchie Boys and reached Buchenwald just after its liberation in 1945.\n\nReviewing the cycle at James Cohan Gallery in 2024, David D'Arcy saw \"the absurd pomp and horror of war\" told with the punch of comics. The Met bought it that year, and this is its first showing here: one room, Gallery 690, free with Museum admission, through 5 January.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The parade horse",
+     "text": "Look for the army horse in full dress regalia at the head of the march, leaving its droppings as part of the pageant."
+    },
+    {
+     "title": "The children who watch",
+     "text": "Early drawings show children gazing at the soldiers in awe; a few frames later they are led away."
+    },
+    {
+     "title": "The scratched battle frames",
+     "text": "War arrives as abstract lines scratched into the surface, then explosions, then destruction and boxes of bodies carried off."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 810,
@@ -21060,10 +21434,42 @@
    "venue_lat": 40.782951,
    "venue_lng": -73.958992,
    "venue_hours": "월-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1 212-423-3500",
    "venue_price": "$30",
    "venue_homepage": "https://www.guggenheim.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$30",
+   "official_url": "https://www.guggenheim.org/exhibition/guggenheim-pop",
+   "long_description": "The show takes four tower galleries on three floors. Tower 5 holds the 1960s, under Oldenburg and van Bruggen's 26-foot shuttlecock feathers. Tower 7 is built around Kusama, and level 4 has the recent acquisitions, Cattelan's taped banana included. You pass Marta Minujín's drawings for a Statue of Liberty laid on her side in Battery Park and covered in McDonald's patties, next to the letter turning it down.\n\nArtNowLA called the historical works \"the show's strongest cards\", and Highbrow's Sandra Bertrand found it \"worth a concentrated look\". It's included in museum admission. For the Kusama room, scan a QR code on arrival to join the virtual queue: groups of up to four get 60 seconds, entry isn't guaranteed, and the queue closes once full, so come early.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Soft Shuttlecock",
+     "text": "Nine canvas-and-foam feathers, each 26 feet long, sprawl across the Tower 5 gallery, made for Oldenburg's 1995 rotunda retrospective and unseen in New York for 25 years."
+    },
+    {
+     "title": "The Kusama mirror room",
+     "text": "On Tower Level 7, mirrors multiply flickering lights in every direction, and for part of your 60 seconds the lights go out completely."
+    },
+    {
+     "title": "Cattelan's Comedian",
+     "text": "A single banana duct-taped to the wall in the contemporary galleries on level 4, a promised gift to the museum."
+    },
+    {
+     "title": "Jim Dine's Bedspring",
+     "text": "A bedspring Dine found near Washington Square Park in 1960, built up with newsprint, burlap and lightbulbs."
+    },
+    {
+     "title": "Warhol's Orange Disaster #5",
+     "text": "A grid of the same newspaper photograph of an electric chair, silkscreened over and over in orange."
+    }
+   ],
+   "good_for": [
+    "First-Timers",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 811,
@@ -21086,10 +21492,43 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "You start with her first two pen drawings, from 1935, titled My Very First and My Second, and the show runs in order to the dense, mandala-like pictures she made from the 1960s on, more than 100 works in all. During wartime rationing she drew on found Coast Guard stationery and a window shade. She titled one 1963 drawing Modern Art, and in 1975 the Whitney put it on the cover of her exhibition brochure.\n\nLabels are in English and Spanish, with Bloomberg Connects audio and verbal descriptions for several works. Admission is $30, free for visitors 25 and under, on Friday evenings from 5 to 10pm and on second Sundays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Invasion Picture (1944)",
+     "text": "A mound of skulls and a Mosquito combat aircraft over a watery landscape like Wilmington's coast, painted after a vision in which she heard God tell her to \"draw or die\"."
+    },
+    {
+     "title": "Airlie Oak (1954)",
+     "text": "The Airlie Gardens oak, a tree dating to at least 1545, built up in layers of dried paint she scraped from old cans and thinned with turpentine, on a wooden crate lid."
+    },
+    {
+     "title": "The turnaround pictures",
+     "text": "Crayon drawings symmetrical on both axes, made to hang and be viewed from any orientation, with feathered forms, pincher forms and eye pendants."
+    },
+    {
+     "title": "Modern Art (1963)",
+     "text": "White angels stand guard over an altar-like centre of long pine trees, winged beasts, mandalas and cryptic writing, framed by decorative curves."
+    },
+    {
+     "title": "Minnie Evans Art 1981",
+     "text": "A 57-page scrapbook, one of her last works, with her self-portrait on the cover and, inside, drawings, photographs, letters and the 1969 Newsweek article that called her a \"beautiful dreamer\"."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 812,
@@ -21112,10 +21551,42 @@
    "venue_lat": 40.782951,
    "venue_lng": -73.958992,
    "venue_hours": "월-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1 212-423-3500",
    "venue_price": "$30",
    "venue_homepage": "https://www.guggenheim.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$30",
+   "official_url": "https://www.guggenheim.org/exhibition/collection-in-focus-modern-european-currents",
+   "long_description": "This is one gallery of the museum's own collection, mostly painted between 1910 and 1918 by artists from the German, Austro-Hungarian and Russian empires. You can follow Kandinsky from four landscapes of the Bavarian village of Murnau to Painting with White Border (1913), where his native Moscow is still recognisable but most of the canvas has gone abstract. Goncharova, Popova, Malevich and Schiele cover the more radical turns. The watercolors rotate because they are too fragile to stay out, so what's on paper depends on when you go.\n\nIn the Wall Street Journal, Judith H. Dobrzynski called it \"enlightening\". It's small, nearly twenty paintings and watercolors by the museum's count, and included in general admission ($30, under-12s free, pay what you wish Tuesdays and Sundays 4 to 5:30pm).",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Franz Marc's Yellow Cow",
+     "text": "A yellow cow with a full udder, painted to Marc's idea that yellow is \"the female principle, gentle, gay, and sensual\", as the wall label explains."
+    },
+    {
+     "title": "Kandinsky's Painting with White Border",
+     "text": "Look for signs of Moscow, which Kandinsky had just revisited in 1913, half-dissolved into the abstract colour that fills most of the canvas."
+    },
+    {
+     "title": "Kandinsky's Murnau landscapes",
+     "text": "Four views of the Bavarian village, in colours as intense as Gabriele Münter's but with freer, less blocky shapes."
+    },
+    {
+     "title": "Marc's White Bull",
+     "text": "A white bull from 1911, painted when Marc and the Blue Rider artists wanted art to express the spirituality of nature and animals."
+    },
+    {
+     "title": "Campendonk's Farmer with Horse and Wagon",
+     "text": "A farmer with his horse and wagon, painted in 1918 and never shown since it entered the collection in 1948."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 813,
@@ -21138,10 +21609,43 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/costume-art",
+   "long_description": "The Costume Institute's new galleries, nearly 12,000 square feet off the Great Hall where the gift shop used to be, sort about 400 objects into body types: naked, classical, pregnant, aging, disabled, mortal. Garments stand beside art from across the Met, so Van Gogh's Irises hangs between a Yves Saint Laurent and a Loewe ensemble. This is the Met Gala's show, and the Gala's dress code was \"Fashion is Art\". Here you can wear sneakers.\n\nCritics split. Wallpaper called it \"a compelling and deeply researched exhibition\"; ARTnews found most pairings \"vague and sloppy\" and gave it \"a failing grade\". Come for the clothes and the pairings that click. It's in Gallery 099, included with Met admission ($30, pay what you wish for New York State residents), and open until 9pm Fridays and Saturdays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "McQueen's wooden legs for Aimee Mullins",
+     "text": "Look for the carved timber prosthetic boots Alexander McQueen made in 1999 for the Paralympian, in the section on the disabled body."
+    },
+    {
+     "title": "Gaultier's SAFE SEX FOR EVER shirt",
+     "text": "A 1997 Gaultier shirt and a 1971 Joe Brainard drawing both show heart tattoos splayed across a man's chest; ARTnews called this pairing the show's most powerful."
+    },
+    {
+     "title": "Nicole Kidman's Moulin Rouge! dress",
+     "text": "The black Gaultier she wore to the 2001 premiere stands beside Adam McEwen's fake obituary painting of Kidman, in which she wears the same dress."
+    },
+    {
+     "title": "The Gucci uterus dress",
+     "text": "Alessandro Michele's Gucci dress, with a uterus appliqué, is paired with a small Egyptian carnelian figurine in the pregnant body section."
+    },
+    {
+     "title": "Irises between two ensembles",
+     "text": "Van Gogh's Irises hangs flanked by a 1988 Yves Saint Laurent haute couture look and a Loewe look from spring 2025."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "First-Timers",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 814,
@@ -21167,7 +21671,40 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.diaart.org/visit/visit-our-locations-sites/dia-chelsea-new-york-united-states",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.diaart.org/exhibition/exhibitions-projects/david-lamelas-the-machine-exhibition",
+   "long_description": "You then walk into a darkened east gallery: a clock set to Moon time, a projector beam where the work is the space between lamp and floor, and silent films measuring a gallery against its city. The west gallery centres on his 1968 Venice Biennale news office about the Vietnam War. A separate film program includes the view from a taxi on the FDR Drive, timed to the second, with nobody asking for a tip.\n\nArtforum called the show \"masterfully orchestrated\", and Revista Exclama described the looking it asks for as slow and analytical, so give it time. Entry is free, Wednesday to Saturday, 12 to 6pm, with public tours at 1pm on 14 November, 12 December and 9 January.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Untitled (Falling Wall)",
+     "text": "Look for the large drywall panel propped on larch-wood supports at the entrance, leaning as if caught mid-collapse."
+    },
+    {
+     "title": "Moon Time",
+     "text": "In the darkened east gallery, a standard clock tells you the time on the Moon instead of in Manhattan."
+    },
+    {
+     "title": "Límite de una proyección II",
+     "text": "A projector throws a beam of light onto the floor, and Lamelas says the work is the space between the two, not the light."
+    },
+    {
+     "title": "Office of Information About the Vietnam War",
+     "text": "His 1968 Venice news office of desk, telex and microphone, restaged without its glass screen and visible from the West 22nd Street window."
+    },
+    {
+     "title": "To Pour Milk into a Glass",
+     "text": "A 1972 video in which milk is poured into a glass until it overflows."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 815,
@@ -21193,7 +21730,32 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.hauserwirth.com/locations/10073-hauser-wirth-new-york-22nd-street/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/zeng-fanzhi-new-york/",
+   "long_description": "The one sculpture is an obelisk of blue onyx, banded blue and cream, and the gallery says it looks like something dug out of one of the planets in the paintings around it. Those paintings are imagined landscapes from another world, in Zeng Fanzhi's first New York show in over a decade.\n\nEach canvas gives you two pictures. From across the room, colour laid side by side rather than mixed on the palette pulls together into rock formations, water and pitch-black horizons. Walk up close and it breaks apart into fields of pure pigment. Zeng paints wet-on-wet with several brushes at once, so every new layer drags through the one still drying underneath, and the press release compares the result to both pointillism and the pixelation of digital images.\n\nIt follows his show in Venice during the 2024 Biennale. Entry is free with no booking at 542 West 22nd Street, Tuesday to Saturday, 10am to 6pm, from the opening reception on Thursday 5 November, 6 to 8pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The blue onyx sculpture",
+     "text": "Look for an obelisk-like standing form in blue and cream banded quartz, made to read as an artifact excavated from the planets in the paintings."
+    },
+    {
+     "title": "The black horizons",
+     "text": "Beyond jagged rock and water, pitch-black skies open out, with streaks of turquoise, yellow and deep crimson glinting like fossils or bioluminescent fragments."
+    },
+    {
+     "title": "The grids",
+     "text": "Precise grids and lines run across several canvases like survey maps or excavation plans, then get churned up by the brushwork laid over them."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Out-Of-Town Guests",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 816,
@@ -21216,10 +21778,18 @@
    "venue_lat": 40.7487,
    "venue_lng": -74.0064,
    "venue_hours": "월-목 10:00 - 18:00\n금 10:00 - 16:00\n토-일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 421-3292",
    "venue_price": "Free",
    "venue_homepage": "https://www.pacegallery.com/galleries/new-york/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.pacegallery.com/exhibitions/elmgreen-dragset-transition/",
+   "long_description": "-   [Li Hei Di: the year of mud6 November 2026 – 19 December 2026](https://www.musa.guide/en/discover/new-york/exhibitions/pace-gallery/li-hei-di-the-year-of-mud)\n-   [David Byrne: Stairwell Drawings10 April 2025 – 31 December 2026](https://www.musa.guide/en/discover/new-york/exhibitions/pace-gallery/david-byrne-stairwell-drawings)\n-   [Lucas Samaras: Boxes and Reconstructions6 November 2026 – 23 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/pace-gallery/lucas-samaras-boxes-and-reconstructions)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 817,
@@ -21242,10 +21812,31 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "It is one installation, made for this room by the Harlem-born Samba (born 2000), and her first solo museum show. The label lists acrylic on extruded polystyrene, oil on wood, an electric fan and an LED light. You get the history from the wall text: the Congo's Shinkolobwe mine supplied most of the uranium for the Hiroshima bomb, and in 2003 a claim that Iraq had sought 500 tons of ore from Niger helped justify the invasion.\n\nSamba calls the piece \"bright and dark\". The Floor 1 gallery is free to everyone during Museum hours, so you can walk in without a ticket. The Whitney is closed Tuesdays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The uranium-shell sculptures",
+     "text": "Monumental freestanding forms modeled on depleted uranium shells fill the centre of the gallery, each striped in the colours of one of five national flags."
+    },
+    {
+     "title": "The Congo's colours",
+     "text": "Look for the blue, red and yellow of the Democratic Republic of the Congo, which the wall text ties to the Shinkolobwe mine and the uranium for the Hiroshima bomb."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 818,
@@ -21268,10 +21859,42 @@
    "venue_lat": 40.7711,
    "venue_lng": -73.9672,
    "venue_hours": "월 10:30 - 17:30\n화 휴관\n수-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-288-0700",
    "venue_price": "$30",
    "venue_homepage": "https://www.frick.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$30",
+   "official_url": "https://www.frick.org/exhibitions/siena",
+   "long_description": "Nearly forty bronzes fill the three Lauder Exhibition Galleries: statues, reliefs, candelabra and medals, many never shown outside Tuscany. The first room covers foundry practice and bell casting, the second Donatello's stay in Siena from 1457 to 1461, and the largest the funerary sculpture, portrait medals and statues. Several works sit in open-backed cases that show the casting behind them.\n\nGalerie called it \"by no means blockbuster-sized, but rather a well-curated jewel box\", and the New Criterion calls it the first survey anywhere of Siena's bronze masters. Admission is $30 and the Frick recommends timed tickets. It runs until 18 January.",
+   "editors_pick": "Donatello's bronze tomb slab for Bishop Pecci, from Siena Cathedral, on its first trip to the United States. Around it, nearly 40 bronzes cast in Siena between 1450 and 1500. Best for anyone who already loves the Frick's own bronzes.",
+   "look_for": [
+    {
+     "title": "Donatello's tomb slab for Bishop Pecci",
+     "text": "A bronze funerary slab of Giovanni di Bartolomeo Pecci, one of only eight signed Donatello works, shown in the US for the first time."
+    },
+    {
+     "title": "The Mariano Sozzini the Elder monument",
+     "text": "The only surviving bronze effigy of a layman from 15th-century Italy, a tomb figure of a lawyer rather than a bishop."
+    },
+    {
+     "title": "Vecchietta's Resurrection, 1472",
+     "text": "Christ rising from the tomb in a bronze relief the dealer Joseph Duveen gave Henry Clay Frick, a major source of inspiration for the show."
+    },
+    {
+     "title": "Hercules Triumphing over the Nemean Lion",
+     "text": "A late-1480s statuette about 16 inches tall, attributed to Francesco di Giorgio, one of three Hercules bronzes with newly clarified dating."
+    },
+    {
+     "title": "Francesco di Giorgio's Lamentation",
+     "text": "A bronze about 86 by 75 cm, c. 1475, of the Lamentation at the foot of the cross, lent from Santa Maria del Carmine in Venice."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 819,
@@ -21294,10 +21917,43 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5918",
+   "long_description": "The galleries are on MoMA's third floor, their walls written over with lines of poetry facing cases full of books. The show is anchored by the Zell Collection, about 100 artists' books given to MoMA in 2022 and shown here for the first time. You walk it in date order: Breton, Dalí and Éluard making books together in the 1920s and 30s, Toyen printing in secret in Nazi-occupied Prague, then Burroughs and Gysin after the war. Some books stand on pedestals like sculpture.\n\nExpect glass between you and the pages: the most fragile volumes can only be leafed through on interactive screens. The catalogue is $75 at the MoMA store.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Hugnet's mercury binding",
+     "text": "Look for L'Air de l'eau, whose cover holds liquid mercury between glass plates painted as a seabed with fish, so the picture changes whenever the book moves."
+    },
+    {
+     "title": "The book-objects on pedestals",
+     "text": "Look for bindings treated as sculpture: one book holds sand and works as an hourglass when turned over, others have mirrors, seahorses or fossils set into their covers."
+    },
+    {
+     "title": "Toyen's wartime books from Prague",
+     "text": "Made in secret under Nazi occupation with homemade photographic techniques; of one volume only six or seven copies survive, and four of them are here."
+    },
+    {
+     "title": "Man Ray and Éluard's Facile (1935)",
+     "text": "Man Ray's solarized nudes run into the lines of Éluard's love poems on the same page."
+    },
+    {
+     "title": "Miró's A Toute Épreuve (1958)",
+     "text": "Miró's colourful, blob-like woodcuts float around Éluard's poems across the spreads."
+    }
+   ],
+   "good_for": [
+    "Going Solo",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 820,
@@ -21320,10 +21976,35 @@
    "venue_lat": 40.7487,
    "venue_lng": -74.0064,
    "venue_hours": "월-목 10:00 - 18:00\n금 10:00 - 16:00\n토-일 휴관",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 421-3292",
    "venue_price": "Free",
    "venue_homepage": "https://www.pacegallery.com/galleries/new-york/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.pacegallery.com/exhibitions/lucas-samaras-boxes-reconstructions/",
+   "long_description": "As a boy in Greece, Samaras would sit in his cousin's dress shop cutting up paper, and whenever he reached for the fabric she told him not to touch it. In 1979, with nobody to stop him, he sewed fabric into big, busy paintings he called Reconstructions. They stayed in his own collection, and this is the first time any have been shown. You still can't touch the fabric.\n\nThey hang beside his boxes, a series of almost 300 he kept making from the early 1960s into the 1980s. He fixed photographs, cutlery, nails, mirrors, bright yarn and feathers onto boxes full of compartments and drawers, using liquid aluminum and plaster. The selection runs from the plain hinged Box #5 to Stiff Box #14, all curves in Cor-ten steel, and Box #133 from 1989.\n\nNobody has reviewed it yet. Entry is free at Pace's Chelsea building, 540 West 25th Street, Tuesday to Saturday, 10am to 6pm, with an opening reception on 5 November from 6 to 8pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Reconstructions (1979)",
+     "text": "Hand-sewn fabric paintings crowded with clashing patterns, colours, textures and shapes, from the artist's own collection and never shown before."
+    },
+    {
+     "title": "Box #5 (1963–1968)",
+     "text": "The plainest box in the room: a rectangular construction that opens on hinges, from the early years of the series."
+    },
+    {
+     "title": "Stiff Box #14 (1971)",
+     "text": "A box in Cor-ten steel, its sides bent into curves Pace calls sinuous yet sinister."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "homepage"
   },
   {
    "id": 821,
@@ -21346,10 +22027,31 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/hyundai-translocal-series-ho-tzu-nyen/",
+   "long_description": "That is the whole exhibition: P for Power: Up Down, a new commission by Ho Tzu Nyen, playing on screens inside the museum's glass-front elevators, which look out onto the Bowery. A sister piece with 24 projectors opens at the Ulsan Art Museum in Korea on October 22. It's the only elevator in Manhattan where pressing the button again actually changes something.\n\nTime Out called it \"a fitting introduction to a lineup that gets considerably weirder from there,\" and that's the right way to take it: part of the ride up to Jafa, Marcon and the Bowery show. It comes with general admission, free for 18 and under, pay what you wish Thursdays 7 to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The child on the elevator screen",
+     "text": "Look for a life-size, digitally rendered Singaporean child who appears when you press a button and delivers a mantra, question, riddle or note about power."
+    },
+    {
+     "title": "A new sequence every press",
+     "text": "Each time someone presses a floor button, an AI system generates a fresh image sequence in real time, so riding twice gets you something different."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Evening Visits",
+    "Locals Who've Seen It All"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 822,
@@ -21372,10 +22074,38 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/screens-series-umi-ishihara/",
+   "long_description": "It is one of three films in Ishihara's first US museum show, which brings back the New Museum's Screens Series. You move from a small Baptist church in Kitakyushu, where people who came through crime, homelessness and abuse stage a Passion Play in Gravity and Radiance, to Nocturnal Melody, 24 minutes with two Tokyo dancers backstage and on stage at a Shibuya gentleman's club.\n\nReal congregants and dancers share the screen with fiction and animated animals, so expect neither straight documentary nor drama. Entry comes with general admission: $28 for adults, free for 18 and under, and pay what you wish on Thursdays from 7 to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Thundergod's lightning club",
+     "text": "Look for the underground club in an imaginary Japanese mountain village where only lightning-strike survivors perform, and the crabs the villagers keep running into."
+    },
+    {
+     "title": "The Passion Play in Gravity and Radiance",
+     "text": "Members of a small Kitakyushu church, many with pasts of crime, homelessness or depression, act out the Passion in simple costumes and talk about how their lives changed."
+    },
+    {
+     "title": "Eri and Catalina in Nocturnal Melody",
+     "text": "Two Tokyo dancers are filmed in dressing rooms and on stage at Madam Woo's club in Shibuya, partly in night vision, telling stories of childhood, dreams and politics."
+    },
+    {
+     "title": "Ishihara's night animals",
+     "text": "In Nocturnal Melody's dream sequences, her stylised nocturnal animals roam Tokyo's streets at night, licking and clambering over each other."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Locals Who've Seen It All"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 823,
@@ -21398,10 +22128,39 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/through-motion-and-repose-expanding-the-walls-2026",
+   "long_description": "Soriano is one of seventeen New York teenagers in this year's Expanding the Walls, the Studio Museum's photography program, and their prints run along one long wall. Some go close: Yoselyn Lucero's parents' nutrition store in the South Bronx, Isabella Amankwa-Jones's black-and-white portraits of people she recognises on 125th Street. Others blur streets and subways. The teens also chose two James Van Der Zee photographs from the collection to hang beside theirs, one at a time. Step outside afterwards and you are on Amankwa-Jones's street.\n\nNo critic has reviewed it. More photographs and each artist's statement are online at expandingthewalls.studiomuseum.org. Admission is pay-what-you-can ($16 suggested, $9 for students and seniors), free on Sundays and for under-16s, and Fridays run to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Christopher Soriano, Suits at the Corner",
+     "text": "Four jackets, rust, plum, black and camel, hang on hooks in a shop window, with street signs standing in front of the glass."
+    },
+    {
+     "title": "James Van Der Zee, Parade on Seventh Avenue in Harlem",
+     "text": "Crowds line Seventh Avenue for a 1917 parade, picked by the teens from the museum's Van Der Zee collection; it alternates with his Capital Grill Restaurant, c. 1940."
+    },
+    {
+     "title": "Yoselyn Lucero, El Corazón del Negocio",
+     "text": "Look for Nutrición Siempre Saludable, her parents' store in the South Bronx, and the family and neighbours who come through it."
+    },
+    {
+     "title": "Isabella Amankwa-Jones's 125th Street portraits",
+     "text": "Formal black-and-white portraits of people of colour she recognises on 125th Street, the street the museum stands on."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Evening Visits",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 824,
@@ -21424,10 +22183,43 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/geometries",
+   "long_description": "Everything comes from the museum's collection: thirty artists, from Alma Thomas and Norman Lewis to Julie Mehretu, working with lines, shapes and the gaps between them. In Jack Whitten's Psychic Intersection you see raked wavy lines, a perfect circle and a black square near the centre that the label compares to a black hole. Shinique Smith tied a bale of clothes with twine and subtitled it (with Cookie Pants): the wash-and-fold bag, promoted to sculpture.\n\nNo critic has reviewed it yet. Admission is pay-what-you-can ($16 suggested for adults, $9 for seniors and students), free on Sundays and for anyone 16 and under, and Fridays run to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "James Little, Homage El-Shabazz (#10)",
+     "text": "Four triangular canvases in one wooden frame form an X where they meet, in reds chosen for Malcolm X's sandy hair and his nickname, Detroit Red."
+    },
+    {
+     "title": "Steffani Jemison, Untitled (X)",
+     "text": "A photograph of her Studio Museum residency window, taped in an X before Hurricane Sandy, printed on acetate so light and shadow play across the surface."
+    },
+    {
+     "title": "Torkwase Dyson, Of Line and Memory, Drawing Test 02",
+     "text": "Look for the square and the triangle: Henry \"Box\" Brown's escape crate and the crawl space where Harriet Jacobs hid for seven years, turned into shapes."
+    },
+    {
+     "title": "Daniel LaRue Johnson, Nations",
+     "text": "One black mass and one white, each capped with bright patches of colour, stand against cerulean blue and never quite meet."
+    },
+    {
+     "title": "Howard McCalebb, Frank Stella as Don Quixote in Defense of the Kaiser",
+     "text": "The geometric painter Frank Stella recast as Don Quixote in rounded shapes and colour fields, with a joke equation in the lower left corner."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Evening Visits",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 825,
@@ -21450,10 +22242,40 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/krasner-and-pollock-past-continuous",
+   "long_description": "Twelve chapters run from the 1930s to the end of both lives, with over 120 works from more than 80 lenders. Some galleries hang the two together, others give each their own. Critics disagree on the pairing. In Cultured, David Rimanelli said \"He was better than her\", and Julia Bryan-Wilson strongly disagreed. Krasner's The Seasons runs nearly 17 feet, the knot your earbuds become by the time the 6 train reaches Union Square.\n\nGallery 899 is a windowless corner of the second floor, and one preview report called it crowded. It's free with Museum admission and open until 9pm on Fridays and Saturdays. The Met is closed Wednesdays. It runs to 31 January 2027.",
+   "editors_pick": "Lee Krasner and Jackson Pollock, wife and husband, in one Met exhibition. Neither has had a major New York show in over twenty years, so this is the first chance in a generation to judge them side by side.",
+   "look_for": [
+    {
+     "title": "The entrance video",
+     "text": "A silent, collaged montage of film and photographs of the artists' Long Island cottage plays in a narrow hallway before the first painting."
+    },
+    {
+     "title": "Krasner's Bald Eagle collage",
+     "text": "Cultured's critics say the show opens with her 1954-55 collages, made from spattered scraps of canvas from Pollock's studio."
+    },
+    {
+     "title": "Pollock's Full Fathom Five (1947)",
+     "text": "Actual junk is embedded in the paint, which Cultured's panel singled out."
+    },
+    {
+     "title": "The Mosaic Table (1947)",
+     "text": "A decorative table with concrete poured by Pollock. Rimanelli called it hideous but liked that it was included."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Nerding Out",
+    "Out-Of-Town Guests",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 826,
@@ -21476,10 +22298,42 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "More than 600 original drawings, the genga that printed pages are made from, fill the first-floor Great Hall. An introduction to manga history leads to Chiba Tetsuya and Akatsuka Fujio, then eight artists get a section each, including Oda, Takahashi, Tagame and Taniguchi. The last section shows Shueisha Manga-Art Heritage prints. The galleries run right to left, like a volume, and Kinokuniya has put printed books in the middle for handling. Wear the wig: the 2 train to Eastern Parkway has seen worse.\n\nTimed tickets start at $30 for adults and include general admission, with entry every 15 minutes from 11am and last entry at 5pm. The museum is open Wednesday to Sunday, 11am to 6pm. The $75 Manga Fan Pass covers two people for unlimited visits.",
+   "editors_pick": "More than 600 original drawings: the hand-inked pages behind Inuyasha, JoJo's Bizarre Adventure and ONE PIECE. The first major show in the Americas to treat manga as art, with a companion collection show tracing 900 years of Japanese narrative pictures.",
+   "look_for": [
+    {
+     "title": "Araki's JoJo painting",
+     "text": "A life-sized, 12-panel work made so the viewer can imagine being inside the JoJo's Bizarre Adventure landscape."
+    },
+    {
+     "title": "Chiba Tetsuya's last page of Ashita no Joe",
+     "text": "Original final-page artwork of the boxing series, rarely exhibited outside Japan."
+    },
+    {
+     "title": "Taniguchi Jiro's self-portrait",
+     "text": "An unfinished late self-portrait, lent outside Japan for the first time by his widow."
+    },
+    {
+     "title": "The Kinokuniya book section",
+     "text": "Printed manga volumes you can pick up and read among the drawings they came from."
+    },
+    {
+     "title": "The Shueisha prints",
+     "text": "The final section shows art prints of ONE PIECE, Rose of Versailles and BLEACH."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 827,
@@ -21502,10 +22356,39 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "It is a Spotlight of 21 collection works in the first-floor Great Hall, which it shares with Art of Manga, and it is there as that show's backstory. You move from scroll to woodblock prints, illustrated books, a porcelain lion and an enamel plate, past heroes, lovers and supernatural beings. Kuniyoshi's boy wrestles a giant carp under a waterfall, and an 1887 Kawanabe Kyōsai book already has manga in its title. The Fujin plate has a Manhattan past: Herter Brothers fitted it into John Sloane's Fifth Avenue house in 1882.\n\nIt is small, so pair it with Art of Manga on one visit. Entry is included in general admission, pay what you can (suggested $20, free for 19 and under), Wednesday to Sunday, 11am to 6pm, through January 31.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Tale of the Wisteria Robe",
+     "text": "A 15th-century handscroll in ink on mica-flecked paper, over 33 feet long, whose graphic devices the museum reads as early speech bubbles."
+    },
+    {
+     "title": "Kuniyoshi's Sakata Kaidōmaru",
+     "text": "A well-muscled boy wrestles a giant carp under a waterfall, drawn with a see-through stream of water and scattering white spray."
+    },
+    {
+     "title": "The Fujin plate",
+     "text": "Look for the wind god slinging a heavy bag of wind over his shoulders against swirling air, above birds and leaves on a turquoise ground."
+    },
+    {
+     "title": "Yoshitoshi's Matsunaga Hisahide",
+     "text": "A warrior facing certain death throws down the treasured tea bowl his enemy wanted, so that nobody gets it."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 828,
@@ -21528,10 +22411,43 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/the-bowery-devils-mile/",
+   "long_description": "The show runs in order: old maps and a marble milestone, Jacob Riis's flash photographs, Weegee and Berenice Abbott, then CBGB in the late 1970s. A small room plays Nan Goldin's The Ballad of Sexual Dependency, much of it shot in her Bowery loft, which Art in America's J. Hoberman calls the outstanding work here. You walk out of it straight into a wall of 28 portraits by Billy Sullivan.\n\nHoberman calls the show compact but says it \"punches above its weight.\" He misses Lionel Rogosin's 1956 film On the Bowery; the only film here is a 1902 comedy loop. Admission is $28, free for 18 and under, and pay what you wish on Thursdays from 7 to 9pm, booked online.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Lady Washington pump wagon",
+     "text": "Look for the enameled 1836 fire engine of a volunteer company, the centerpiece of the first gallery among the dime-museum handbills."
+    },
+    {
+     "title": "The Five Points painting",
+     "text": "An unknown artist's early 19th-century copy of George Catlin's crowded slum street scene, which upstages the stiff Peter Stuyvesant portrait beside it."
+    },
+    {
+     "title": "Martha Rosler's Bowery grid",
+     "text": "Forty-five photographs of empty Bowery storefronts and bottle-strewn gutters, paired with slang words for being drunk instead of captions."
+    },
+    {
+     "title": "Nan Goldin's The Ballad of Sexual Dependency",
+     "text": "A slideshow of candid portraits of friends, many shot in her Bowery loft, in a small room with its own soundtrack."
+    },
+    {
+     "title": "Brad Kahlhamer's Bowery Nation",
+     "text": "In the final gallery, a 25-foot wooden plank on sawhorses carries 22 spidery birds and rows of kachina dolls made from found objects and refuse."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 829,
@@ -21554,10 +22470,39 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/diego-marcon-arrivederci-piggies/",
+   "long_description": "You stand in one room where four films play at once on large screens side by side. In Ludwig, a boy sits alone in the dark, lit now and then by a candle or lightning. In Fritz, a boy hangs from a noose and can't die. The Parents' Room is an operetta sung by a father who has killed his family, and by his dead wife and children.\n\nDavid Lê of The Arcades called The Parents' Room the best of the four and urged readers to go. The museum's Massimiliano Gioni warned it \"can freak some people out.\" Entry is general admission: $28 for adults, free for 18 and under, pay what you wish Thursdays 7 to 9pm, booked online.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Krapfen",
+     "text": "A child in a frenetic dance with four animated garments, gloves, a scarf, trousers and a jumper, to a song that keeps repeating the name of a jam doughnut."
+    },
+    {
+     "title": "The Parents' Room",
+     "text": "It opens on a bird chirping at a window, then the father, in prosthetics that leave only eyes and mouth bare, sings of killing his family."
+    },
+    {
+     "title": "Ludwig",
+     "text": "A young boy sits alone in darkness, visible only when a candle flickers or lightning flashes."
+    },
+    {
+     "title": "Fritz",
+     "text": "A boy hangs from a noose, failing again and again to die, until his body suddenly reanimates."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Evening Visits",
+    "Locals Who've Seen It All"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 830,
@@ -21580,10 +22525,34 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "$30",
+   "official_url": "https://whitney.org/exhibitions/charles-burchfield-elemental",
+   "long_description": "It is one of ten watercolors from the Whitney's own collection, made between 1916 and 1960, of meadows, storms and turning seasons. They are light-sensitive and rarely shown together, and the show marks 70 years since the Whitney's 1956 Burchfield retrospective. He worked big and slow: An April Mood is 54 inches wide, and Overhanging Cloud in July took him twelve years.\n\nIt hangs on the seventh floor, and the Whitney's audio guide has a stop on Overhanging Cloud in July. Admission is $30, $24 for seniors and students, and free for visitors 25 and under, on Friday nights from 5 to 10pm and on second Sundays. The Whitney is closed Tuesdays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Cricket Chorus in the Arbor (1917)",
+     "text": "Look for the crickets' hum drawn as repeated black patterns in a thick hedge at sunset, with deep shadows in front and sunlit clouds behind."
+    },
+    {
+     "title": "An April Mood (1946–55)",
+     "text": "Clusters of three old maples under a dark sky Burchfield called an \"April frown\", with yellow-tipped growth just breaking through the winter ground."
+    },
+    {
+     "title": "Overhanging Cloud in July (1947–59)",
+     "text": "A sheet about a metre tall with yellow dashes and lines across the sky, which the photographer James Welling reads as a force field of summer heat."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Locals Who've Seen It All"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 831,
@@ -21606,10 +22575,34 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/designing-the-gilded-age-drawings-from-the-studios-of-louis-c-tiffany",
+   "long_description": "The rest is mostly paper: nearly 120 watercolor designs, all from The Met's collection, for windows, lamps, mosaics and interiors commissioned from the mid-1880s to the 1920s. Finished windows, mosaics, enamels and lamps hang beside their drawings. The designers were the studio's staff, often émigrés and women such as Clara Driscoll and Agnes Northrop. You come for the name on the lamp and leave knowing who drew it.\n\nIt runs until 7 February in Galleries 691-693 at The Met Fifth Avenue, free with Museum admission. Members can see it from 9 to 10am on select weekend mornings.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Woman in a Pergola with Wisteria (1911)",
+     "text": "Look for the Chrysler Museum's stained-glass window shown with its original wisteria transoms, which were found in an Arizona home."
+    },
+    {
+     "title": "The Poppy lampshade design",
+     "text": "Clara Driscoll and Alice Gouvy's watercolor design, around 1900, for one of the studio's poppy lampshades."
+    },
+    {
+     "title": "First Presbyterian Church, Poughkeepsie",
+     "text": "A watercolor and graphite design for the church's whole interior, drawn around 1906-08 on transparent paper."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 832,
@@ -21632,10 +22625,43 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "$20",
+   "official_url": "https://www.brooklynmuseum.org/exhibitions/breaking-the-mold",
+   "long_description": "More than 220 objects fill much of the fourth floor in three chapters. Brooklyn Made runs from Delaware Lenape youth moccasins to Georgia O'Keeffe's Brooklyn Bridge, and its curator put a Coney Island carousel horse where it greets you as you walk in. Look for Fred McDarrah's Polar Bear Club swimmer: if you've promised yourself the New Year's Day plunge three Januaries running, he went for you. The other chapters trace the museum back to an apprentices' library and show the anniversary gifts.\n\nBrooklyn Magazine called it the museum playing its hits. It's in general admission: $20 suggested, pay what you can at the desk, free for 19 and under. Joel Sternfeld's photographs of activist David Buckel's self-immolation in Prospect Park are hard viewing.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Jenny Holzer's HEAP",
+     "text": "Seven LED signs cycle through truisms and inflammatory messages, and Time Out says they pull visitors in like moths to a flame."
+    },
+    {
+     "title": "Robert Frank's Coney Island, July 4, 1958",
+     "text": "Photographs from a single Independence Day at the beach, which Time Out found unusually melancholy for the place."
+    },
+    {
+     "title": "Lafayette's cornerstone",
+     "text": "The first stone of the Brooklyn Apprentices' Library, the museum's origin, laid by Lafayette while a young Walt Whitman watched."
+    },
+    {
+     "title": "Francis Guy's Winter Scene in Brooklyn",
+     "text": "Snow on the rooftops and smoke curling from chimneys under a foggy grey sky, painted and acquired in 1846."
+    },
+    {
+     "title": "The Bechers' water towers",
+     "text": "German artists Bernd and Hilla Becher's late-1970s photographs of the water towers on New York's rooftops."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 833,
@@ -21658,10 +22684,39 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/david-hartt-peripheries",
+   "long_description": "David Hartt filmed from Versailles to the Boulevard Périphérique and through central Paris, looking for breaks in the landscape where 200 years of political change show. He also borrows from French New Wave film and Eugène Atget's photographs of the palace grounds, and Jeff Parker wrote the score. The screens complete the painting in places and cut into it in others, so where you stand changes what you see. Vanderlyn painted the canvas for a rotunda he built in City Hall Park; it didn't pay, and he toured a 165-foot painting for the rest of his life.\n\nIt's one painting and one film in one room, Gallery 735 of the American Wing, free with Museum admission, through February 7, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The 165-foot Versailles",
+     "text": "Vanderlyn's oil wraps the whole gallery in the palace and its gardens, with the perspective adjusted to the curve of the wall."
+    },
+    {
+     "title": "Vanderlyn painting himself in",
+     "text": "Look right of the Basin de Latone for the artist himself, painted into the scene pointing out Czar Alexander I and the King of Prussia."
+    },
+    {
+     "title": "The two transparent screens",
+     "text": "Two large LED screens stand in the round gallery; you see the painting through them, and their film completes or breaks into the painted view."
+    },
+    {
+     "title": "Paris out to the Périphérique",
+     "text": "Hartt's footage runs from Versailles to the ring road and through central Paris, focusing on spots where two centuries of political upheaval left marks."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 834,
@@ -21687,7 +22742,40 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.momaps1.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Long Island City, Queens",
+   "price": "Free",
+   "official_url": "https://www.momaps1.org/en/programs/760-teresa-margolles",
+   "long_description": "Margolles trained as a forensic pathologist, and this is her first large-scale US museum show: three decades of sculpture, photography and video across PS1's third-floor galleries, plus a new commission. The centrepiece, La promesa, is a barrier of rubble from a house a family abandoned in Ciudad Juárez. A 296-minute video follows volunteers scrubbing shooting sites across Dallas, with each victim's name and address on screen.\n\nSantana describes her approach as \"unsparing\", and the subject throughout is border violence, disappearances and femicides. Entry is free, and La promesa is activated daily at 3pm. A companion piece, Aproximación al lugar de los hechos, drips water onto heated steel plates in Gallery 212 at MoMA in Manhattan.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "La promesa (2012)",
+     "text": "Tons of rubble from a house a family abandoned in Ciudad Juárez, built into a monumental barrier that the museum activates daily at 3pm."
+    },
+    {
+     "title": "Aire (2003)",
+     "text": "Two humidifiers fill a room with vapour from water collected at sites of violence in New York."
+    },
+    {
+     "title": "El agua de la ciudad, Dallas (2016)",
+     "text": "In a 296-minute video, volunteers scrub the sites of shootings across Dallas, each scene captioned with the victim's name, age and address."
+    },
+    {
+     "title": "La nieve (2015)",
+     "text": "A man shovels snow at the Staten Island memorial to Eric Garner, who was killed by police in 2014."
+    },
+    {
+     "title": "Receipt (2020)",
+     "text": "A Walmart receipt for ammunition, enlarged to poster size and stacked so you can take a copy with you."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Out-Of-Town Guests",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 835,
@@ -21713,7 +22801,18 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.momaps1.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Long Island City, Queens",
+   "price": "Free",
+   "official_url": "https://www.momaps1.org/en/programs/838-homeroom-artists-against-the-bomb",
+   "long_description": "Estudio Pedro Reyes organised it with ICAN, the group that won the 2017 Nobel Peace Prize, in support of the Treaty on the Prohibition of Nuclear Weapons. The Homeroom presentation spans posters, design, film, photography, literature, music, sculpture and ephemera, with work by Regina José Galindo, Carlos Amorales, Art & Language and Laura Anderson Barbata, among others. No published reviews yet, so this describes rather than judges.\n\nEntry is free. PS1 is open Thursday to Monday, noon to 6pm (10am on Saturdays), and closed Tuesday and Wednesday. The show runs to 8 February 2027.",
+   "editors_pick": "Posters, film, photography, sculpture, and ephemera from an international artists' campaign for the treaty banning nuclear weapons, with work by Regina José Galindo and Carlos Amorales.",
+   "look_for": [],
+   "good_for": [
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 836,
@@ -21739,7 +22838,28 @@
    "venue_phone": "",
    "venue_price": "$22",
    "venue_homepage": "https://www.cooperhewitt.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Church had just lost two young children to diphtheria when he and his wife, Isabel, went to Jamaica in April 1865. For five months he went out every day, on foot or on horseback, and drew what he found: tree ferns, thatch palms, a lizard, the Blue Mountains near Kingston, bamboo by moonlight.\n\nMore than 60 of those oil studies and pencil sketches are on view, from Cooper Hewitt's 2,000-plus Church sketches, the largest holding of his work anywhere. The curator says they have rarely, if ever, been shown. Some took moments and some took hours, and you can read his notes on the pencil ones. Around them sit period photographs, rare books, and the voices of Paul Bogle and George William Gordon, Black Jamaicans who took on the island's political tensions under British rule.\n\nIt marks 200 years since Church's birth. Museum admission covers it, under-18s are free, and it's pay what you wish from 5 to 6pm daily. The free Bloomberg Connects app has the curator's commentary.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Church's pencil notes",
+     "text": "Look closely at the graphite sketches: Church annotated many of them with short notes the museum describes as both informative and poetic."
+    },
+    {
+     "title": "Period photographs of Jamaica",
+     "text": "Reproductions of 1860s photographs, some collected by Church himself and some from the National Library of Jamaica, show the island he was drawing."
+    }
+   ],
+   "good_for": [
+    "Locals Who've Seen It All",
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 837,
@@ -21765,7 +22885,32 @@
    "venue_phone": "",
    "venue_price": "$22",
    "venue_homepage": "https://www.cooperhewitt.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$22",
+   "official_url": "",
+   "long_description": "It isn't, which is the point. Sudan, the last male northern white rhino, died in March 2018, and scientists stored his DNA for possible de-extinction. Alexandra Daisy Ginsberg answered with this life-size projection, 5 metres wide: its behaviour comes from DeepMind research on AI agents, its sounds from rare footage of the last herd. You watch a species come back as a simulation while a second screen plots its path. Ginsberg's question: \"Can we conscionably resurrect a species when we couldn't keep it alive in the first place?\"\n\nIt's one work inside the Design Across Time collection display, so general admission covers it: a reduced $10 for adults during an upstairs gallery changeover, free for under-18s, pay what you wish 5 to 6pm daily.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The pixel rhino",
+     "text": "Look for the rhino as a blur of brown and grey squares at the start of the loop, sharpening into a lifelike animal as it learns the white room."
+    },
+    {
+     "title": "The data screen",
+     "text": "A second screen beside the projection plays the experiment's data, tracing the rhino's path and the development of grid cells as it learns its space."
+    },
+    {
+     "title": "The last herd's voices",
+     "text": "Listen for the rhino's sounds, adapted from rare research footage of the final northern white rhino herd."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 838,
@@ -21788,10 +22933,42 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5910",
+   "long_description": "Arriving in New York in 1926, Brancusi looked around and said: \"Why, it is my studio. All these blocks, all these shapes to be shifted and juggled with, as the experiment grows and changes.\" The studio he meant, at the impasse Ronsin in Paris, is where he lived, worked and received clients from 1916 until his death.\n\nIts contents went to France and are now the Atelier Brancusi, closed during the Centre Pompidou's renovation, which is why the sculptures are travelling. They fill the sixth floor in largely chronological order: Leda, Bird in Space, Fish, and different versions of Mlle Pogany and The Kiss. Many stand on his original hand-carved bases, beside carved wood furniture, tools, and his own photographs and films. Brancusi hand-carved the bases under his sculptures; your plant sits on a milk crate by the fire escape.\n\nIt runs to February 27, 2027, and is included with general admission, $30 for adults.",
+   "editors_pick": "Brancusi treated his Paris studio as a work in itself and photographed his sculptures there rather than trust anyone else to. MoMA gathers rarely lent pieces from the atelier with those photographs, his films, furniture and tools.",
+   "look_for": [
+    {
+     "title": "Sculptures on their original bases",
+     "text": "Works stand on Brancusi's own hand-carved wood and stone bases, which the museum treats as being as carefully formed as the sculptures they hold."
+    },
+    {
+     "title": "Three versions each of The Kiss and Mlle Pogany",
+     "text": "Versions dated between 1912 and 1940 hang together, showing one motif recurring in different materials and configurations."
+    },
+    {
+     "title": "Brancusi's own films",
+     "text": "Films he made show his mobile sculptures in motion."
+    },
+    {
+     "title": "Studio photographs",
+     "text": "Photographs he took himself record how the sculptures were rearranged in the studio over four decades."
+    },
+    {
+     "title": "Carved wood furniture",
+     "text": "Furniture he carved sits among the sculptures, blurring the line between support, domestic object and artwork."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 839,
@@ -21814,10 +22991,42 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/dreams-of-this-future-the-collection-of-peggy-cooper-cafritz",
+   "long_description": "What hangs here is a slice of the 400-plus works she left the Studio Museum: nearly fifty artists, from Kerry James Marshall and Wangechi Mutu to former students of the DC public arts high school she cofounded. You read her voice on every wall: the quotes all come from her own book. Rozeal.'s portrait on a Louis Vuitton suitcase stood in her foyer to greet guests. Most New Yorkers greet theirs with a shoe rack.\n\nNo critic has reviewed it yet. Some works are hard going: Njena Surae Jarvis hangs cast body parts from cords and chains that recall lynching. Admission is pay-what-you-can ($16 suggested), free on Sundays and for anyone 16 and under, and Fridays run to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Sanford Biggers, Jocko",
+     "text": "Three chrome-plated bronze lawn jockeys, partly melted, one of the few pieces that came through the 2009 fire at Cafritz's house."
+    },
+    {
+     "title": "Rozeal., Dave, Dove",
+     "text": "A man's portrait painted onto a Louis Vuitton suitcase, the LV pattern picked out in blue; it sat in Cafritz's foyer to welcome guests."
+    },
+    {
+     "title": "Hassan Hajjaj, Romancia",
+     "text": "A figure poses on a moped named Romancia against bright blue, framed by 46 chicken bouillon boxes laid out like Moroccan zellige tiles."
+    },
+    {
+     "title": "Hank Willis Thomas, Basketball and Chain",
+     "text": "A man in Nike sneakers leaps up and out of the frame, his ankles chained to a basketball, shot like a sleek minimalist ad."
+    },
+    {
+     "title": "Simone Leigh, No Face (Black)",
+     "text": "A featureless Black female face in terracotta and porcelain, its edge ringed with tiny rosettes Leigh rolled by hand from bits of clay."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Evening Visits"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 840,
@@ -21840,10 +23049,41 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "It is the show's only work, and it runs live: image and sound are computed in real time, so no pass repeats. Steensen spent months in Berlin's remaining wetlands with the Museum für Naturkunde, scanning soils, plants and currents with macro photogrammetry. You stand among wall-spanning screens while altered field recordings of amphibians mix with Arca's voice and Sorbian and Slavic songs. Berl-Berl opened in 2021 at Halle am Berghain and has changed with each stop since.\n\nTime Out placed it between art installation and \"extremely sophisticated nature documentary.\" It fills the Agnes Gund Garden Lobby on Floor 1 until March 7, 2027, and admission is free. Berlin named itself after its swamp; New York's still turns up on subway platforms after a hard rain.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Triglav as a giant tree",
+     "text": "The three-headed god of Slavic folklore appears in the MoMA version of the swamp as a huge tree."
+    },
+    {
+     "title": "Swamp soil at giant scale",
+     "text": "Macro photogrammetry blows up the microscopic textures of Berlin wetland soils, plants and currents across wall-spanning screens."
+    },
+    {
+     "title": "Arca and the amphibians",
+     "text": "Digitally altered field recordings of amphibians and river rhythms are mixed with Arca's vocals and songs from Sorbian and Slavic traditions."
+    },
+    {
+     "title": "The insect's-eye view",
+     "text": "The viewpoint shifts from a view of the whole marsh to a fragmented, insect-like perspective, and the real-time simulation never plays the same pass twice."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Rainy Days",
+    "Teenagers",
+    "[Where to see Jakob Kudsk Steensen now →](https://www.musa.guide/en/discover/artists/jakob-kudsk-steensen)"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 841,
@@ -21866,10 +23106,43 @@
    "venue_lat": 40.782951,
    "venue_lng": -73.958992,
    "venue_hours": "월-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1 212-423-3500",
    "venue_price": "$30",
    "venue_homepage": "https://www.guggenheim.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$30",
+   "official_url": "https://www.guggenheim.org/exhibition/taryn-simon",
+   "long_description": "It is one of 42 chapters winding up the rotunda, the first time the Guggenheim has given the whole rotunda to one new body of work by a photography-based artist. Simon spent nearly a decade tracing the career of one unnamed federal agent, which touched the Marion Barry sting and the Nairobi embassy bombing. Forty-two chapters spiralling up one ramp is your 1am Wikipedia rabbit hole made physical, minus the phone at 4%.\n\nCritics were split. Ostrow found the route \"stubbornly linear\" and the signage \"ill-considered\", while Aruna D'Souza in Hyperallergic argued that injustice here \"seems purely systemic, not the result of individuals behaving badly\". Plan to read. Admission is $30, and the museum is open daily 10:30am to 5:30pm.",
+   "editors_pick": "Taryn Simon fills the whole rotunda with one federal agent's career, told in 42 chapters up Wright's ramp. Simon builds her work from photographs, documents and text, so plan on reading as much as looking.",
+   "look_for": [
+    {
+     "title": "The marble cabinet",
+     "text": "Crank the handle and marbles run down a track while a screen plays an elderly man narrating slides."
+    },
+    {
+     "title": "Jodie Foster's fingerprinting drill",
+     "text": "Foster reenacts a color-coded fingerprinting exercise from her preparation for The Silence of the Lambs."
+    },
+    {
+     "title": "Paul Ames and the auction lots",
+     "text": "Portraits of Paul Ames, son of the convicted spy Aldrich Ames, hang beside photographs of confiscated items sold at government auction."
+    },
+    {
+     "title": "Letters from Lee Boyd Malvo",
+     "text": "Correspondence and artwork from the incarcerated sniper, part of the agent's wider paper trail."
+    },
+    {
+     "title": "The teak-panelled introduction",
+     "text": "Text panels set against teak paneling, a replica of a Bangkok spy's living room, recount her father's stories and her meeting with the agent."
+    }
+   ],
+   "good_for": [
+    "Going Solo",
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 842,
@@ -21895,7 +23168,28 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.momaps1.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Long Island City, Queens",
+   "price": "Free",
+   "official_url": "https://www.momaps1.org/en/programs/793-new-york-fashion-at-ps1-1980-1984",
+   "long_description": "One film here is cut from more than 20 hours of footage of Charles James talking in his studio at the Chelsea Hotel, shot in 1978. The other, Made in New York, is a rarely screened 1984 WilliWear production with cameos from Willi Smith, Bill T. Jones and Jenny Holzer.\n\nBetween 1980 and 1984 the stylist Hollywood Di Russo staged ten fashion shows at PS1, on the premise that fashion \"undeniably influences the way that we see.\" She skipped the usual costume display: clothes were pinned to walls, stuffed and hung salon-style, or stiffened in plaster and laid on the floor. Back then, clothes on the floor was a curatorial position, not a bedroom you hadn't tidied. You get original pieces and partial reconstructions of four of those shows, by Julio Espada, Charles James, Willi Smith and Betsey Johnson, plus archive photographs.\n\nEntry is free; tickets can be reserved online. It opens on 5 November, and the Open House on 7 November includes a 2pm talk, A Fashion Alternative.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Charles James film",
+     "text": "A film compiled from more than 20 hours of footage of the couturier talking in his Chelsea Hotel studio, shot in 1978 by Anton Perich and R. Couri Hay."
+    },
+    {
+     "title": "Made in New York (Les Levine, 1984)",
+     "text": "A rarely screened WilliWear film with cameos from Willi Smith, Bill T. Jones and Arnie Zane, Jenny Holzer and Arman."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 843,
@@ -21921,7 +23215,32 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.momaps1.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Long Island City, Queens",
+   "price": "Free",
+   "official_url": "https://www.momaps1.org/en/programs/744-hard-art",
+   "long_description": "In 1980 PS1 hung a show called Afro-American Abstraction, and Lorraine O'Grady answered it with a performance that demanded \"BLACK ART MUST TAKE MORE RISKS!!!\" Forty-six years later, in the same building, this show takes her demand as its starting point.\n\nIt gathers more than forty artists across three generations. Paintings by artists who came up in the 1970s, such as Frank Bowling, Ed Clark and Sam Gilliam, hang alongside recent sculpture, video and sound, and several works come straight from landmark shows: The DeLuxe Show (1971), whose curator Peter Bradley supplied the title, and PS1's own 1980 exhibition. You reach a double-height gallery filled end to end by a freestanding structure Torkwase Dyson built for it.\n\nEntry is free, and tickets can be reserved online. PS1 is open Thursday to Monday, noon to 6pm, and from 10am on Saturdays. The Open House on 7 November includes a talk revisiting the 1980 show, and the Bloomberg Connects app carries the wall text and artists' audio.",
+   "editors_pick": "Abstract painting by Black artists in the United States from 1969 to today, more than 40 of them across three generations. It hangs in MoMA's former schoolhouse in Queens, where entry is now free.",
+   "look_for": [
+    {
+     "title": "Torkwase Dyson's new environment",
+     "text": "A newly commissioned freestanding architectural structure that spans the whole of PS1's double-height gallery."
+    },
+    {
+     "title": "Lorraine O'Grady, Landscape (Western Hemisphere)",
+     "text": "An 18-minute video of the artist's hair in close-up, blown by fans until it reads as a shifting landscape, over a soundtrack of birds, insects, wind and city noise."
+    },
+    {
+     "title": "Maren Hassinger, The Veil Between Us",
+     "text": "Look for newspapers twisted and knotted into a veil, held together with twine, wire, rope and steel."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 844,
@@ -21947,7 +23266,37 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.momaps1.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Long Island City, Queens",
+   "price": "Free",
+   "official_url": "https://www.momaps1.org/en/programs/799-masao-gozu-windows-and-bars",
+   "long_description": "From 1976 to 1981, Masao Gozu kept photographing the front window of Harry's Bar at 98 Bowery, taking a picture each time a customer gazed out of its left side. Twelve of those frames are here. When the bar closed, he asked to buy the window itself and was turned down. Plenty of New Yorkers pay extra rent for a window; he wanted to own one outright.\n\nThat refusal started his sculptures. Gozu arrived in the 1970s with no photography training and shot apartment windows from the street, mostly in immigrant neighbourhoods from Chinatown to Crown Heights, each squared up in the darkroom to face you flat. Over 40 works run from 1972 to now, and you see old frames beside his recent returns to the same addresses.\n\nThis is his first US museum show, and nobody has reviewed it yet. Entry is free, with tickets reservable online. It opens on 5 November, and the 7 November Open House includes a workshop, Looking Out / Looking In.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Harry's Bar, 98 Bowery",
+     "text": "Twelve shots of the same bar window between 1976 and 1981, each taken the moment a customer gazed out of its left side."
+    },
+    {
+     "title": "The 25th Street window (1992)",
+     "text": "A window salvaged from a torn-down facade on 25th Street, rebuilt at quarter scale from brick, lintel and frame Gozu cut down himself."
+    },
+    {
+     "title": "Sunset between the towers",
+     "text": "Three large colour photographs of windows Gozu installed around New York and New Jersey, placed so the sun set between the World Trade Center towers."
+    },
+    {
+     "title": "Mott Street, then and now",
+     "text": "Look for Chinatown's Mott Street windows shot in 1972, hung with Gozu's recent photographs of the same site."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days",
+    "[Where to see Masao Gozu now →](https://www.musa.guide/en/discover/artists/masao-gozu)"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 845,
@@ -21970,10 +23319,35 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/kapwani-kiwanga-bleed",
+   "long_description": "You stand in front of a dappled black made by oxidising pigment with salt water from the Atlantic, indigo for the blue swells, and a red oval dyed with pokeberries, a toxic North American fruit. The berries are for Delphy, a Black woman accused in 1816 of poisoning her enslaver with them. Kiwanga used fugitive dyes, colours that can change over time, so the wall keeps a record of its own run.\n\nIt is one work in one room, and no critic has reviewed it yet. Entry is pay-what-you-can ($16 suggested), free on Sundays and for anyone 16 and under, and Fridays run to 9pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The pokeberry oval",
+     "text": "A red oval floats in the indigo, dyed with pokeberries for Delphy, accused in 1816 of poisoning her enslaver with the fruit."
+    },
+    {
+     "title": "The Atlantic black",
+     "text": "The dappled black wave along the bottom was made by oxidising pigment with salt water collected from the Atlantic Ocean."
+    },
+    {
+     "title": "The flying geese in indigo",
+     "text": "Look closely at the blue: it is pieced from triangles, the quilt motif said to point the way north, dyed with indigo, a plantation crop of the South."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Evening Visits"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 846,
@@ -21996,10 +23370,34 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "$20",
+   "official_url": "https://www.brooklynmuseum.org/exhibitions/donald-moffett",
+   "long_description": "There is nothing to look at. Moffett made the piece in 2006 from a Library of Congress recording, and it is only speakers and a media player running a loop of 2 minutes 20 seconds. You step in and get Lewis's voice, the echo of applause and that gavel. Brooklyn and the Virginia Museum of Fine Arts bought it together in 2018, and Lewis went to hear it himself in Richmond in 2019.\n\nIt is on the 5th floor, included in general admission, and part of the museum's Drawing America: US@250 season. More of Moffett's work is in Common Sense, on until 8 November.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The gavel",
+     "text": "Listen for the Judiciary Committee chairman's gavel coming down as he tries to silence Lewis mid-speech."
+    },
+    {
+     "title": "The storm story",
+     "text": "Lewis recounts surviving a devastating storm and turns it into a plea to stay together as one house and one family."
+    },
+    {
+     "title": "The applause",
+     "text": "Moffett keeps the echoes of applause from the House floor in the recording, around Lewis's voice."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Going Solo"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 847,
@@ -22022,10 +23420,40 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "More than 50 works fill the fourth floor of the Schapiro Wing. The Pearlmans bought Cézanne in depth, landscapes and a cache of watercolors, alongside Degas, Gauguin, Manet and Van Gogh. Letters, photographs and portraits of Henry by Kokoschka and Lipchitz tell the couple's story: he grew up in Park Slope, Rose arrived from Minsk aged four. After fifty years on loan to Princeton, the collection now hangs a short walk from where he grew up.\n\nIt's the collection's last full tour. Entry is included in general admission, untimed and pay what you can (suggested $20, free for 19 and under), through April 18, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Soutine's View of Céret",
+     "text": "The painting that started the collection opens the show: a town in southern France, paint applied as if by trowel and swirled into a vortex."
+    },
+    {
+     "title": "Toulouse-Lautrec's The Sacred Grove",
+     "text": "A 12-foot send-up of a prize-winning Puvis de Chavannes, with a clock on the classical portico, a boy eating bread, and Lautrec himself urinating in the grove."
+    },
+    {
+     "title": "Modigliani's Jean Cocteau",
+     "text": "Cocteau, proud of his straight nose, got painted with a bump; he bought the portrait for 5 francs, then left it behind because he couldn't afford a taxi home."
+    },
+    {
+     "title": "Van Gogh's Tarascon Stagecoach",
+     "text": "Green carriages before a thickly painted yellow wall in Arles, done in one October afternoon in 1888; look between the wheel spokes, where bare canvas shows."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Nerding Out",
+    "Out-Of-Town Guests",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 848,
@@ -22048,10 +23476,42 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5678",
+   "long_description": "MoMA owns the whole project, and here it shares a gallery with seven contemporary artists, each shown at MoMA for the first time. You turn from Wex's sorted strangers to K8 Hardy in wigs and costumes across fifty prints, sampling the poses Wex filed as male or female. Wex had a panel category for how people sit decades before the MTA printed posters about it.\n\nNo major critic has reviewed it yet, so take it as the curators' argument: a 1970s system, retested on race, colonialism and Indigenous sovereignty. It's in the second-floor Paul J. Sachs Galleries until May 2, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Martine Gutierrez, Body En Thrall",
+     "text": "Posed like a Hollywood starlet, Gutierrez wraps her legs around a mannequin and stares at the camera, flipping the dynamics of Wex's \"Possessive Holds\" panels."
+    },
+    {
+     "title": "Nona Faustine at the Tweed Courthouse",
+     "text": "Nude except for white heels, Faustine braces against a marble column of the downtown Manhattan courthouse, a few steps from the African Burial Ground."
+    },
+    {
+     "title": "Yuki Kihara's fa'afafine after Gauguin",
+     "text": "Three photographs restage Gauguin's Polynesian paintings with fa'afafine models who hold your gaze, in front of waterfalls, lush plants and a wallpaper of Samoa's Aleipata islands."
+    },
+    {
+     "title": "Joiri Minaya, Wake",
+     "text": "Minaya peels off a tropical-print bodysuit while waves from a tourist postcard are laid over her, so she half disappears into the background."
+    },
+    {
+     "title": "Wendy Red Star's Accession collages",
+     "text": "Ten collages layer 1930s Denver Art Museum catalogue drawings of Apsáalooke objects with her own photographs from the Crow Fair."
+    }
+   ],
+   "good_for": [
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 849,
@@ -22074,10 +23534,44 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "$30",
+   "official_url": "https://whitney.org/exhibitions/lichtenstein",
+   "long_description": "You start by walking the nearly 96-foot Greene Street Mural, one of four rebuilt murals, to Image Duplicator, a pair of bulging comic-book eyes. Then roughly 130 works fill the fifth floor, including Look Mickey and Drowning Girl. The curators frame it around copying, and Lawler, Pettibone and Sturtevant, who each copied him in turn, hang alongside. The title comes from a 1962 canvas, and it is also the two words on every resale listing you have ever scrolled past.\n\nWallpaper called it \"revelatory and snappy\". ARTnews found it stylish rather than a rethink, peaking at the Rouen Cathedral paintings, and suggested skimming the last third. Admission is $30, free for visitors 25 and under, and the Whitney recommends booking ahead. Fridays run until 10pm, free from 5pm.",
+   "editors_pick": "About 130 works from the 1940s to the 1990s, with the paintings from his 1962 debut at Leo Castelli hung together again. A full retrospective, and the one to see if you only know the comic-strip canvases.",
+   "look_for": [
+    {
+     "title": "The 1962 Castelli debut, reunited",
+     "text": "All eight paintings from Lichtenstein's first Pop-style show hang in their original arrangement, the first time they have been together since."
+    },
+    {
+     "title": "Greene Street Mural, rebuilt",
+     "text": "A nearly 96-foot wall of his signature brushstrokes and benday dots opens the show, with vitrines of drawings, maquettes and Polaroids set into it."
+    },
+    {
+     "title": "The Mirrors room",
+     "text": "A rounded, silver-walled room ringed with eight Mirror canvases from 1969 to 1972, dotted circles of glass that reflect nothing, the most ever shown together in a retrospective."
+    },
+    {
+     "title": "Lawler, Pettibone and Sturtevant",
+     "text": "Three artists who built work out of copying Lichtenstein hang beside the paintings they copied."
+    },
+    {
+     "title": "Girl in Window, outdoors",
+     "text": "Alex Da Corte and his studio hand-painted a 32-foot-tall Girl in Window on the Whitney's facade, so part of the show can be seen without going in."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "First-Timers",
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 850,
@@ -22103,7 +23597,24 @@
    "venue_phone": "",
    "venue_price": "$25",
    "venue_homepage": "https://www.themorgan.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Murray Hill",
+   "price": "$25",
+   "official_url": "https://www.themorgan.org/exhibitions/blockbooks",
+   "long_description": "On every page of a blockbook, the words and the picture were cut into the same block of wood and printed together. They are often called \"medieval graphic novels\", and they were the first print-on-demand books in the West. They appeared around 1450 and had largely died out by 1480.\n\nFor those thirty years they competed with handwritten manuscripts and with books set in movable type, and lost: carving a page in wood was slower than setting it. The centrepiece is an Ars moriendi, a guide to dying well, printed in the Netherlands around 1467 to 1469. Pierpont Morgan bought nine of its 24 leaves in 1902, and the museum bought the other fifteen from a private collection in 2022, so you are looking at the only known complete copy.\n\nThe Morgan holds the largest blockbook collection in the United States, and curator John McQuillen's catalogue is a census of every blockbook or fragment in US collections. The Morgan stays open until 8pm on Fridays.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The reunited Ars moriendi (c. 1467-69)",
+     "text": "A woodcut guide to dying well, shown whole: nine leaves Pierpont Morgan bought in 1902 rejoined by fifteen the museum bought in 2022, the only known complete copy."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 851,
@@ -22126,10 +23637,44 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/flip-sides-seeing-korean-art-anew",
+   "long_description": "It's one gallery, 233, with about 50 Korean objects from the Met's own collection, more than half on view for the first time. Things are turned so you see the side usually kept from you: a celadon box left open to show the swirled clay at its rim, the stamp faces of bronze seals, bowls whose incised waves sit inside. If you turn mugs over in shops to read the bottom, this is a whole gallery built on that habit.\n\nIt's included with Met admission. Some works change when the second rotation opens on October 31, 2026, and Met Expert Talks on the show run November 5, February 2 and May 4, at 3pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Kashyapa, the smiling monk",
+     "text": "A relaxed, smiling wooden figure of the Buddha's eldest disciple, hollowed for offerings; a scroll found inside dates him to 1700."
+    },
+    {
+     "title": "The openwork peony jar",
+     "text": "Four large peonies with twisting branches form a porcelain lattice, and an X-ray scan shows a second vessel concealed inside."
+    },
+    {
+     "title": "The mirror with a Buddha on its face",
+     "text": "Unlike the other bronze mirrors here, its image is on the reflective side: Amitabha and two bodhisattvas on lotuses, enlarged on the case glass."
+    },
+    {
+     "title": "The marbled celadon box",
+     "text": "A three-inch Goryeo box displayed open, so you can see the spiral of two blended clays at the rim under the green glaze."
+    },
+    {
+     "title": "The bird-shaped burial vessel",
+     "text": "A 3rd-century earthenware bird with a 'mohawk'; its scan shows the head was made separately and a metal staple reinforces the base."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Going Solo",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 852,
@@ -22152,10 +23697,39 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "The rest of this third-floor show is studies rather than finished pictures: two pyramids of cut paper, tape and acrylic on foamcore, a sketch for a chapel mural that was never built, and two mirrored panels for a Bellagio hotel mural. The Whitney notes his palette was widening to mint green, turquoise, coral and cyan, and the heavy black outlines were going. Paper folded onto foamcore to pass for solid is also how StreetEasy photos make a studio read as a loft.\n\nWhitehot Magazine's Kurt Cole Eidsvig found a show to be seen and enjoyed in its own right. For finished Pop paintings, Like New on the fifth floor is the one. Admission is $30, free for visitors 25 and under, and the Whitney is open until 10pm on Fridays.",
+   "editors_pick": "Prints, photographs, sculptural maquettes, and studies for projects he never realized, all from 1997, the last year of Lichtenstein's life. Most of it is rarely shown.",
+   "look_for": [
+    {
+     "title": "Brushstroke Still Life with Box",
+     "text": "An empty vase and an empty box, with a bare white strip down the left edge where the obliterating brushstroke was meant to be painted. A 1996 study hangs with it."
+    },
+    {
+     "title": "Wall Pyramid (Model) and Pyramid (Maquette)",
+     "text": "Tent-like pyramids of cut painted and printed paper, taped onto foamcore. The solid look is an illusion of folded surfaces, shown against a study of a suburban house."
+    },
+    {
+     "title": "Bellagio Hotel Mural: Still Life with Reclining Nude (Study)",
+     "text": "Two mirrored panels: one a comic-book-style reclining nude, the other echoing an ancient statue, with a man holding an artist's palette."
+    },
+    {
+     "title": "Chapel of the Eucharist Mural (Study)",
+     "text": "Leonardo's Last Supper table with no figures at it, and a flash of light above it that the critic called a visual POP."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 853,
@@ -22178,10 +23752,34 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "It is one sculpture, the only Richards in the museum's collection, from a series he spent nearly ten years on about the Tuskegee Airmen, Black pilots who fought in World War II in a segregated military. The museum reads the nails two ways: as the Kongolese nkisi nkondi, a guardian figure woken by each nail, and as Saint Sebastian's arrows. Richards died on September 11, 2001, in his North Tower studio.\n\nIt stands in the first-floor Rubin Lobby, so see it on the way to a bigger show. It is included in general admission, pay what you can (suggested $20, free for 19 and under), through June 6, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The nails",
+     "text": "Dozens of them pierce the figure from collarbone to mid-thigh, down the arms and through the hands and feet, like a crucifixion."
+    },
+    {
+     "title": "The pilot's gear",
+     "text": "Look for the aviator's flight cap, goggles and parachute backpack on a figure whose eyes are closed and arms pinned to his sides."
+    },
+    {
+     "title": "The rust-coloured surface",
+     "text": "Fiberglass and resin coated in iron oxide, cast from a mold Richards made of his own body, with a slight bend in the right knee."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 854,
@@ -22204,10 +23802,38 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/the-genesis-facade-commission-liu-wei",
+   "long_description": "The works are named for physical constants (Λ, G, c, h). The two flanking the entrance are monumental, the outer two more delicate, all built from fiberglass, steel, bronze and bovine rawhide. Liu Wei says: \"Our reality is a puzzle built by time. I want to answer it with a puzzle.\" A hand reaching up from a black sphere is you gripping the pole on the 6 at 86th Street when the driver brakes.\n\nThis is Liu Wei's first major US project. It's free to view from Fifth Avenue until June 8, 2027.",
+   "editors_pick": "Beijing-based Liu Wei takes over the Met's Fifth Avenue facade with a work about cycles of rupture and resistance, free to see from the street.",
+   "look_for": [
+    {
+     "title": "Speculation / Λ",
+     "text": "A black sphere holds up a hand reaching skyward, as if trapped in a ruin of bone tissue."
+    },
+    {
+     "title": "Speculation / G",
+     "text": "An outstretched hand lies at the base of a tower of protruding nails, rawhide and layered geometric metal cutouts."
+    },
+    {
+     "title": "Speculation / c",
+     "text": "One side reads as a premodern saint carved from rock and melted into a scream, the other side has an index finger pointing up."
+    },
+    {
+     "title": "Speculation / h",
+     "text": "A heart-shaped form with grafted fingers that nearly clutch the organ."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 855,
@@ -22230,10 +23856,42 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5926",
+   "long_description": "About 30 works fill a windowed gallery on MoMA's ground floor, all but one from the collection. They range from new prints extending W.E.B. Du Bois's 1900 data portraits to New York Times 3D reconstructions of Notre Dame and Tulsa's Greenwood neighborhood, and Kate Crawford and Vladan Joler's Calculating Empires covers three walls of a side room. You move between screens you can work through and Dear Data, hand-drawn postcards two designers mailed each other across the Atlantic. Curator Paola Antonelli wants you to leave reading every chart with \"more critical eyes.\"\n\nCome if you make or read charts. The catch is Calculating Empires, dense on purpose: Galerie's writer argues its density \"is the argument.\" It's included with admission ($30 adults, 16 and under free) until June 13, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Warming Stripes",
+     "text": "The first piece in the show: one stripe per year since 1850, sliding from deep blue to bright red as the global average temperature climbs."
+    },
+    {
+     "title": "Calculating Empires",
+     "text": "Icons and text cover three walls of a side room, tracing technology and power from the Gutenberg press to now."
+    },
+    {
+     "title": "Dear Data postcards",
+     "text": "Ink-and-pencil postcards Giorgia Lupi and Stefanie Posavec sent between New York and London, each one a hand-drawn chart of a week in their lives."
+    },
+    {
+     "title": "The Synthetic Memories Archive",
+     "text": "AI-generated pictures of memories that were never photographed hang on the wall, with the real people's prompt texts printed underneath."
+    },
+    {
+     "title": "Two Sides of the Same Coin",
+     "text": "A model mapping human-associated microbes on one side and more than 12,000 years of global land use on the other."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 856,
@@ -22256,10 +23914,42 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5932",
+   "long_description": "This is Sheikh's first solo show in New York. Five double-sided scrolls from Each Night Put Kashmir in Your Dreams hang mid-gallery, each 12 by 6 feet, so you walk around each one to read its other side. Paintings on paper about Kashmir's nomadic Bakarwal communities line the walls. Then come the ten new scrolls of Shahid (Witness), made for this room: burned and flooded land below, grey skies with blood-red horizons above.\n\nIt is slow, text-heavy painting, threaded with poetry by Agha Shahid Ali, and the subject is violence, including two panels on the 2018 attack on Asifa, an eight-year-old Bakarwal girl. A gallery handout decodes We Must Bear. It runs until June 13, 2027, included with admission ($30 adults, 16 and under free).",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The weeping woman in We Must Bear",
+     "text": "Look at the scroll's lower left: a kneeling woman cries red tears over a lozenge in her lap, with a stencilled child in a cradle behind her."
+    },
+    {
+     "title": "The figure carrying a body uphill",
+     "text": "At the centre of We Must Bear, a figure struggles up a slope under a lifeless body, a pose Sheikh took from a Safavid painting of Cain and Abel."
+    },
+    {
+     "title": "The graves along the Line of Control",
+     "text": "Repeating octagonal lozenges stand for anonymous border graves, some overlaid with flowers cut in Sanjhi paper stencils made with artisans in Mathura."
+    },
+    {
+     "title": "The skies of Shahid (Witness)",
+     "text": "Across ten new scrolls, fire and flood fill the lower registers while otherworldly beings watch from above and birds fly toward paler, bluer skies."
+    },
+    {
+     "title": "The stencilled words in Home, Land 4",
+     "text": "Bakarwal voices are lettered across the landscape: \"We are living in forests for hundreds of years and now we are being termed as illegal occupants.\""
+    }
+   ],
+   "good_for": [
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 857,
@@ -22282,10 +23972,43 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Fifty-three tithu, carved from cottonwood and painted, are among more than 120 works from the 19th century to now. They represent Katsinam, spirits who bring rain to the Hopi in arid northeastern Arizona, and they are given mainly to girls and women. Sections follow the corn-grinding ceremony, marriage and the summer Butterfly Dance. The last holds thirty pots, baskets and pieces of jewelry by Hopi women, and a video of six artists.\n\nIt fills the Center for Feminist Art on the 4th floor and is included in general admission: pay what you can at the desk (suggested $20, free for 19 and under). The audio guide is on Bloomberg Connects. It runs through June 27, 2027.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Henry Shelton's Mudhead",
+     "text": "Look for a Kooyemsi doll carved from cottonwood root in the 1960s and finished with feathers, yarn and iron."
+    },
+    {
+     "title": "Shelton's Father Sun",
+     "text": "Taawa, the Father Sun, carved by the same hand and dressed in silver discs, fur, beads and silk ribbon."
+    },
+    {
+     "title": "The Butterfly Dance ensembles",
+     "text": "A boy's historical kilt whitened with Hopi clay beside a ribbon shirt, and a girl's kopatsoki tablita headdress with a handmade dress and cape."
+    },
+    {
+     "title": "The groom's wedding plaque",
+     "text": "A hahawpi given to the groom, shown with photographs of a Hopi bride's wedding attire."
+    },
+    {
+     "title": "Verma Nequatewa's Hopi Maiden Pendant",
+     "text": "A 1997 pendant in 14-karat gold, set with opal, fossilized ivory, coral, sugilite and turquoise."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 858,
@@ -22308,10 +24031,39 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Some of the bark cloths in Gallery 359 were diplomatic gifts from senior Samoan chiefs to Robert Louis Stevenson and his wife Fanny, who argued the chiefs' case while the couple lived in Samoa from 1890 to 1894. The chiefs called the author of Treasure Island \"Tusitala\", Teller of Tales.\n\nGroups of women make tapa from the inner bark of the paper mulberry tree and paint it by hand. In Polynesia it is the cloth of ceremonial exchange. The Met shows 19th-century pieces from Fiji, Samoa and Futuna from its collection, adds a Niuean hiapo lent by Te Papa, and hangs a pair of large Fijian panels, masi kesa, together for the first time. Samoan chiefs gave cloth as statecraft, which sets a high bar for December's office Secret Santa.\n\nYou stay in one gallery, and it's free with Museum admission, so it fits any Met visit. Alongside the old cloths hangs a monochrome painting by the Niuean poet and painter John Puhiatau Pule, whose early work borrowed hiapo's grids.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Stevenson gifts",
+     "text": "Look for the boldly designed tapa that Samoan chiefs presented to Robert Louis Stevenson and Fanny as diplomatic gifts in the 1890s."
+    },
+    {
+     "title": "The masi kesa pair",
+     "text": "Two large-scale Fijian bark-cloth panels, shown side by side here for the first time."
+    },
+    {
+     "title": "The hiapo from Niue",
+     "text": "A Niuean bark cloth lent by Te Papa Tongarewa, New Zealand's national museum, in the grid-like design Niue is known for."
+    },
+    {
+     "title": "John Puhiatau Pule's painting",
+     "text": "A contemporary monochrome by the Niuean poet and painter, whose early paintings took their cue from hiapo grids."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 859,
@@ -22334,10 +24086,43 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/rediscovering-della-robbia-at-the-met",
+   "long_description": "It's one gallery of 16 works, most out of storage for the first time in decades, from three generations of the Florentine family that invented glazed terracotta around 1440. Up close you can find the seams, hidden along the outlines, where big works were fired in sections. Moulded in multiples, weatherproof and cheaper than marble, this was the flat-pack version of Renaissance sculpture, and it still gleams.\n\nSanta Fe dealer Gerald Stiebel noted it opened without the Met's usual hoopla, and called it a presentation \"one would think you could only see in Italy\". It's in Gallery 521, free with Museum admission, through January 2028. Met Expert Talks on it run 13 October and 9 February 2027, 3pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Marquand Altarpiece",
+     "text": "Andrea's Assumption of the Virgin, ca. 1485: 33 newly conserved glazed sections set against a graphic rendering of the full ten-by-seven-foot altar."
+    },
+    {
+     "title": "The animated reconstruction",
+     "text": "A large video built from 3D scans assembles the whole altarpiece and suggests the order the workshop put it together in."
+    },
+    {
+     "title": "Two generations, two palettes",
+     "text": "Andrea's Saint Michael the Archangel hangs beside Giovanni's newly gifted Mystic Mandorla, to show the brighter range of colours Giovanni brought to the family's glazes."
+    },
+    {
+     "title": "Dovizia and St. Michael statuettes",
+     "text": "The same basic figure reworked twice: Dovizia raises a hand to steady a platter of fruit, while Saint Michael swings a sword over a writhing dragon."
+    },
+    {
+     "title": "The bust of François I",
+     "text": "The king of France in glazed terracotta, 1529, the only known Della Robbia portrait whose sitter was both a contemporary and firmly identified."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 860,
@@ -22360,10 +24145,38 @@
    "venue_lat": 40.71167,
    "venue_lng": -74.01361,
    "venue_hours": "월 09:00 - 19:00\n화 휴관\n수-일 09:00 - 19:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-312-8800",
    "venue_price": "$36",
    "venue_homepage": "https://www.911memorial.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Lower Manhattan",
+   "price": "$36",
+   "official_url": "https://911memorial.org/news-release-Our-Flag-Was-Still-There",
+   "long_description": "The installation is in Foundation Hall and is built around four flags. You stand in the hall with the Last Column, the 36-foot steel remnant of the South Tower, and the flag that flew over it through the nine months of recovery is part of the show. So is the flag FDNY firefighters raised on the afternoon of 9/11, the one in Tom Franklin's photograph, and the Garrison flag that soldiers hung down the side of the Pentagon on September 12. Press photographs and first-person stories, such as FDNY Captain Michael Dugan's, fill in the rest.\n\nIt comes with museum admission ($24 to $36, or free on Mondays from 5:30 to 7pm, tickets released online that morning). Last entry is an hour before the 7pm close. On view through February 2028.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Bin Laden Raid flag",
+     "text": "Look for the handwritten \"5/1/11 Geronimo 'NS'\" on the flag a lead Chinook pilot carried tucked into his flight gear on the 2011 raid."
+    },
+    {
+     "title": "The Ground Zero Flag",
+     "text": "The flag in Tom Franklin's photograph, shown with the 2002 USPS stamps and medals that reproduced the image, and the story of how it went from a yacht at a nearby marina to this museum."
+    },
+    {
+     "title": "The Pentagon's Garrison flag",
+     "text": "A Garrison flag, the largest official U.S. flag, which soldiers of the 3rd Infantry Regiment and Arlington firefighters draped over the side of the Pentagon on September 12, 2001."
+    },
+    {
+     "title": "The Last Column flag",
+     "text": "The flag raised over the 36-foot South Tower column that still stands in Foundation Hall, there until the column was removed on May 30, 2002 to mark the end of recovery."
+    }
+   ],
+   "good_for": [
+    "First-Timers",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 861,
@@ -22386,10 +24199,30 @@
    "venue_lat": 40.71167,
    "venue_lng": -74.01361,
    "venue_hours": "월 09:00 - 19:00\n화 휴관\n수-일 09:00 - 19:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-312-8800",
    "venue_price": "$36",
    "venue_homepage": "https://www.911memorial.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Lower Manhattan",
+   "price": "$36",
+   "official_url": "https://www.911memorial.org/Exhibitions/responding-in-ink",
+   "long_description": "You start before 2001, with comics from the 1970s onward in which supervillains made the Twin Towers a regular target. From there about 50 covers, pages and pieces of original art follow how the industry responded: charity books published within months of the attacks, then memoirs, anniversary books and educational works. Penelope Ray, the museum's director of exhibition development, calls comics \"a really important way that young readers learn about history\".\n\nIt's included with museum admission ($36 for adults, free on Mondays from 5:30 to 7pm) and runs through February 2028. The museum is open Wednesday to Monday, 9am to 7pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The inked Spider-Man page",
+     "text": "Uncoloured inks by John Romita Jr. and Scott Hanna from Marvel's late-2001 issue that put the city's emergency responders at the centre of the story."
+    },
+    {
+     "title": "Big Apple Diaries",
+     "text": "Alyssa Bermudez's graphic memoir, built from the diary she kept as a New York middle schooler whose father worked in the World Trade Center."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 862,
@@ -22412,10 +24245,39 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/a-kings-carpet-louis-xiv-and-the-savonnerie",
+   "long_description": "Four complete carpets fill the Wrightsman Galleries, with fragments and a trial weave possibly made by a trainee. The Met is frank about who did the weaving: orphans and homeless children gathered from Paris streets for their sharp eyes and nimble fingers. Laid end to end, the full set would have outrun The Met's own Fifth Avenue facade.\n\nYou can also watch textile conservators repairing one carpet in a temporary studio inside the gallery. The show is in Galleries 524 to 528, included with Museum admission, and runs until March 5, 2028.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Music carpet on the wall",
+     "text": "Look up at Grande Galerie carpet no. 11, with Euterpe and Erato woven into nearly 30 feet of wool pile, hung vertically like a tapestry for the first time at The Met."
+    },
+    {
+     "title": "Fame and Fortitude, mid-repair",
+     "text": "Carpet no. 38, the first Grande Galerie carpet to reach America and once Alva Vanderbilt's, is the one conservators are strengthening in the in-gallery studio."
+    },
+    {
+     "title": "The Landscapes carpet",
+     "text": "Carpet no. 73 is one of the narrower pieces, with a landscape woven at each end; it served the French ambassador in Madrid and survived the Revolution and the Spanish Civil War."
+    },
+    {
+     "title": "Marie Antoinette's game-room rug",
+     "text": "An Apollo Gallery carpet woven in 1664 to 1666, later laid in Marie Antoinette's temporary game rooms in 1785 and then owned by the Rothschilds, on loan from a private collection."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 863,
@@ -22438,10 +24300,42 @@
    "venue_lat": 40.71167,
    "venue_lng": -74.01361,
    "venue_hours": "월 09:00 - 19:00\n화 휴관\n수-일 09:00 - 19:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-312-8800",
    "venue_price": "$36",
    "venue_homepage": "https://www.911memorial.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Lower Manhattan",
+   "price": "$36",
+   "official_url": "https://911memorial.org/Exhibitions/their-honor-25-years-911-inspired-service",
+   "long_description": "You look up at the wings, then turn to the screens, where a 3D model lets you pick out each artist and read where their service took them. Around it are objects from people who answered 9/11 with work: the jacket Captain Beverley Bass wore when she diverted her American Airlines flight to Gander, the bunker coat presented to Jon Stewart during his 2019 testimony to Congress, and the FDNY helmet of a son who followed his father into the department.\n\nIt's included with museum admission ($36 for adults, free on Mondays from 5:30 to 7pm) and runs through January 2030.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The Feathers of the Phoenix",
+     "text": "Look up for the papier-mâché phoenix, 15 feet wing to wing, its feathers decorated by children who lost family on 9/11, with a 3D model on screens nearby."
+    },
+    {
+     "title": "Captain Beverley Bass's uniform jacket",
+     "text": "The jacket she wore on 9/11 when she diverted her flight to Gander, Newfoundland, later worn on stage by Jenn Colella in Come From Away."
+    },
+    {
+     "title": "Ray Pfeifer's bunker coat",
+     "text": "An FDNY firefighter's coat signed by 9/11 healthcare advocates and presented to Jon Stewart when he testified to Congress for responders' healthcare in 2019."
+    },
+    {
+     "title": "James Dowdell's FDNY helmet",
+     "text": "The helmet of a firefighter who joined the FDNY after his father Kevin died on 9/11, and made lieutenant at Rescue 2 in 2025."
+    },
+    {
+     "title": "The Zabuli Education Center kite",
+     "text": "An embroidered kite made by a student at a free school for girls in rural Afghanistan."
+    }
+   ],
+   "good_for": [
+    "Out-Of-Town Guests",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 864,
@@ -22464,10 +24358,40 @@
    "venue_lat": 40.671306,
    "venue_lng": -73.96375,
    "venue_hours": "월-화 휴관\n수-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (718) 638-5000",
    "venue_price": "$20",
    "venue_homepage": "https://www.brooklynmuseum.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Prospect Heights, Brooklyn",
+   "price": "$20",
+   "official_url": "https://www.brooklynmuseum.org/exhibitions/rubin-museum-tibetan-buddhist-shrine-room",
+   "long_description": "This is the Rubin Museum's Shrine Room, seen by over a million people on 17th Street from 2013 to 2024. More than 100 objects from the 12th to 21st centuries (thangkas, gilt bronzes, drums, conch trumpets) sit on Tibetan furniture in the order of a wealthy household shrine. The current selection follows the Geluk tradition and rotates every few years. It crossed the East River with its own doors and beams, a smoother move to Brooklyn than most Manhattan renters get.\n\nBrooklyn's Asian art curator finds it even more transporting among the museum's white walls. The collective Our Ancestors Say No wants it returned, calling the objects stolen. It's in the second-floor Arts of Asia galleries, included in untimed general admission (pay what you can at the desk), with an audio guide on Bloomberg Connects.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Tsongkhapa and Scenes from His Life",
+     "text": "An 18th-century painted thangka of the Geluk school's founder, the tradition this arrangement follows, shown with episodes from his life."
+    },
+    {
+     "title": "The brocade hangings",
+     "text": "Silk brocade textiles made by master artisans hang from the ceiling and the pillars, as they would in a Tibetan home shrine."
+    },
+    {
+     "title": "The ritual instruments",
+     "text": "Look for the hand drums, conch trumpets, horns and reeds laid out with vajras, bells and offering bowls."
+    },
+    {
+     "title": "The shrine touchscreen",
+     "text": "An interactive screen walks you through what a shrine's objects stand for: the Buddha's body, speech and mind."
+    }
+   ],
+   "good_for": [
+    "An Hour Or Less",
+    "Cheap Culture",
+    "Going Solo",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 865,
@@ -22493,7 +24417,40 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://gagosian.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://gagosian.com/exhibitions/2026/julie-curtiss-unreal/",
+   "long_description": "In one painting, the back half of an elephant stands inside a bodega doorway, the shopfront plastered with ads for baked goods and deli sandwiches. The bodega cat has competition.\n\nThese are new paintings, Curtiss's first with Gagosian in New York, set in the city: apartments, laundromats, bodegas, a fortune teller's window. The people are cropped or turned away, so you never get a face. In Makeover, two women in fur coats, sunglasses and post-surgery compression masks stand with their backs to you. Only the animals show their faces: fish and a crab in restaurant tanks on Grand Street, and a squid fighting a whale in a bedroom, borrowed from a diorama at the American Museum of Natural History.\n\n\"Nothing feels real right now,\" Curtiss says, and the gallery promises sly humour to go with it. Entry is free at 541 West 24th Street, Tuesday to Saturday 10am to 6pm. The opening reception is Tuesday 10 November, 6 to 8pm, and the show runs until 19 December.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Bodega (2026)",
+     "text": "In a flat, stark composition, an elephant's hindquarters fill a shop doorway whose outside is covered in ads for baked goods and deli sandwiches."
+    },
+    {
+     "title": "Makeover (2026)",
+     "text": "Two women seen from behind in fur coats, sunglasses and postoperative compression face masks, their hair, fur and accessories painted pattern by pattern."
+    },
+    {
+     "title": "Dirty Laundry (2026)",
+     "text": "Look down: a man's and a woman's formal shoes face each other on a checkerboard floor in front of a row of washing machines."
+    },
+    {
+     "title": "Squid and Whale (2026)",
+     "text": "The predator fight from a Natural History Museum diorama, a scene no human has actually witnessed, moved from the ocean depths into a bedroom."
+    },
+    {
+     "title": "Grand Street (2026)",
+     "text": "A restaurant kitchen at night, with tanks of fish, mussels and a crab under coloured light and roasted ducks hanging in the window."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Locals Who've Seen It All",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 866,
@@ -22516,10 +24473,21 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "The Met's image for this show is Tōmatsu Shōmei's Hateruma Island, from 1971: a black-and-white sea under one huge, billowing cloud, the horizon tipped on a slant. Hateruma is in Okinawa, which the United States occupied until 1972 and which still hosts most of the American troops stationed in Japan.\n\nOkinawa and the towns around US bases are the show's ground. Tōmatsu photographed the collision of American and Japanese culture there. Ishikawa Mao, Ishiuchi Miyako and Tokiwa Toyoko turned to what the occupation meant for women, including themselves and their friends. Yamashiro Chikako, an Okinawan artist working now, carries it into the present. Next to the prints are the photobooks and monthly magazines where photographers swapped neutral reportage for something personal.\n\nIt is the Met's first Japanese photography show since 1995, drawn from its own collection, with new acquisitions by Tōmatsu, Ishikawa and Ishiuchi. You'll find it in Gallery 851 at The Met Fifth Avenue, free with Museum admission.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 867,
@@ -22542,10 +24510,22 @@
    "venue_lat": 40.7711,
    "venue_lng": -73.9672,
    "venue_hours": "월 10:30 - 17:30\n화 휴관\n수-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-288-0700",
    "venue_price": "$30",
    "venue_homepage": "https://www.frick.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$30",
+   "official_url": "https://www.frick.org/exhibitions/monkman",
+   "long_description": "The painting that prompted this show hangs a short walk away. When you finish in the installation, the Frick points you to the South Hall to see Vermeer's Officer and Laughing Girl, painted around 1657, the picture Kent Monkman is answering.\n\nMonkman's new paintings fill the Cabinet Gallery. He uses Vermeer's scene as a way into how Dutch art of the period showed the effects of global trade and colonization. His alter ego Miss Chief, who time-travels and shapeshifts, carries the story through five centuries of Indigenous and European encounters, with the cultural, technological and environmental changes that came with them.\n\nThe series travels on to the Beaverbrook Art Gallery in Fredericton, New Brunswick, with a bilingual English and Canadian French catalogue. Admission is $30 and included in general museum entry; the Frick is closed Tuesdays.",
+   "editors_pick": "New paintings by Kent Monkman answer Vermeer's Officer and Laughing Girl. His alter ego Miss Chief enters the picture to look at trade, colonization and the encounters between Indigenous people and Europeans.",
+   "look_for": [],
+   "good_for": [
+    "Locals Who've Seen It All",
+    "Out-Of-Town Guests",
+    "[Where to see Kent Monkman now →](https://www.musa.guide/en/discover/artists/kent-monkman)"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 868,
@@ -22571,7 +24551,35 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://gagosian.com",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://gagosian.com/exhibitions/2026/georg-baselitz-meine-schule/",
+   "long_description": "Two of the paintings show schoolchildren lined up beneath a banner reading Ein Volk, Ein Reich, Ein Führer. It hung outside the schoolhouse in Deutschbaselitz, where Baselitz's father taught and the family lived during the war. It is the artist's earliest memory, and neither painting has been shown before.\n\nBaselitz died in April and conceived and designed this show himself, around his last completed paintings. In the rest of them, tilt your head: the couple drawn in fine black lines on gold is Baselitz and his wife, Elke, upside down, each with a burst of bright impasto he called \"a misplaced Willem de Kooning\". There are also two monumental bronzes, including his last sculpture, Strawinsky, a seated figure over seven feet tall whose head and limbs collapse while its trunk stays upright.\n\nEntry is free at 555 West 24th Street, Tuesday to Saturday 10am to 6pm. The opening reception is Thursday 12 November, 6 to 8pm, and the show runs until 23 January.",
+   "editors_pick": "The last paintings and sculptures Georg Baselitz completed, curated by Richard Calvocoressi. The first New York look at how the painter who turned his figures upside down finished his career, in a gallery that charges nothing to enter.",
+   "look_for": [
+    {
+     "title": "Meine Schule, die Jungs and Meine Schule, die Mädchen (2026)",
+     "text": "Boys in one, girls in the other, standing before the Nazi banner hung on his father's school on days like Hitler's birthday; neither has been exhibited before."
+    },
+    {
+     "title": "Strawinsky (2026)",
+     "text": "His last sculpture: a white-patinated bronze seated figure, over seven feet tall, from his puppet designs for The Soldier's Tale, its trunk upright and its head and limbs collapsing."
+    },
+    {
+     "title": "1965 (2024)",
+     "text": "A second monumental bronze with the same rough, tactile surface but dark, based on Baselitz's own figure in A. R. Penck's 1964-65 group portrait of four friends."
+    },
+    {
+     "title": "The gold paintings",
+     "text": "Baselitz and Elke upside down in thin, ink-like black lines on gold grounds, each interrupted by a cluster of colourful impasto he called \"a misplaced Willem de Kooning\"."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 869,
@@ -22594,10 +24602,42 @@
    "venue_lat": 40.7813,
    "venue_lng": -73.9603,
    "venue_hours": "월 10:00 - 18:00\n화 휴관\n수-일 10:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 628-6200",
    "venue_price": "$28",
    "venue_homepage": "https://www.neuegalerie.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "$28",
+   "official_url": "https://www.neuegalerie.org/exhibitions/25thanniversary",
+   "long_description": "The Neue Galerie has been shut since the summer for building upgrades, and its galleries open again on 12 November with a show that takes over the whole William Starr Miller House. Two exhibition floors of the 1914 Fifth Avenue mansion hold the collection's best-known pieces, with Klimt's gold-leaf Portrait of Adele Bloch-Bauer I (1907) at the head of a list that also names Schiele, Kokoschka, Beckmann, Dix and Bauhaus artists.\n\nIt is a collection show rather than a single-theme one, so paintings hang beside design: Josef Hoffmann's 1912 gold tobacco case set with gemstones, Marianne Brandt's 1927 metal-and-wood tea infuser, a Moriz Jung greyhound printed as a postcard. Brandt's infuser is why the one in your kitchen drawer from Muji looks underdressed.\n\nTickets are $28, $18 for seniors and $15 for students, and the museum lists free access on 13 November. Children under 12 are not admitted. A free digital guide carries curatorial notes on key works, and Café Sabarsky has been serving again since 1 October.",
+   "editors_pick": "For its 25th anniversary the museum hangs collection highlights on every floor, from Klimt's Adele Bloch-Bauer I to German and Austrian masterworks and Wiener Werkstätte design.",
+   "look_for": [
+    {
+     "title": "Klimt's Portrait of Adele Bloch-Bauer I",
+     "text": "A woman in ornate gold garments, painted in oil, gold and silver on canvas in 1907. It is the museum's signature painting."
+    },
+    {
+     "title": "Schiele's Town among Greenery (The Old City III)",
+     "text": "A 1917 oil of a town seen among trees and rooftops, the Schiele on the museum's list for this show."
+    },
+    {
+     "title": "Kandinsky's Black Form",
+     "text": "A 1923 abstract oil built around a dark shape, the Bauhaus-era counterweight to the Viennese gold."
+    },
+    {
+     "title": "Münter's In the Garden in Murnau",
+     "text": "A 1911 garden scene in oil on board, from the Blue Rider circle's years in Murnau."
+    },
+    {
+     "title": "Moriz Jung's Greyhound",
+     "text": "A 1912 chromolithograph made as a postcard: a dog on a piece of card, hung among the paintings."
+    }
+   ],
+   "good_for": [
+    "First-Timers",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 870,
@@ -22623,7 +24663,18 @@
    "venue_phone": "",
    "venue_price": "$25",
    "venue_homepage": "https://www.themorgan.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Murray Hill",
+   "price": "$25",
+   "official_url": "https://www.themorgan.org/exhibitions/ragtime",
+   "long_description": "The image the Morgan chose to announce this show is a sheet-music cover: Scott Joplin's Maple Leaf Rag, printed in St. Louis in 1899, from its own shelves. Most of what surrounds it comes from one pianist's collection, the John Davis Collection of Early Printed Musical African Americana.\n\nSeven sections in the Engelhard Gallery follow ragtime from West African rhythm and European tradition into early jazz, then out to Broadway and film. The spine is a pairing: Ernest Hogan, known as \"The Father of Ragtime\", wrote catchy songs for Black working-class audiences, and Joplin wrote rags meant as serious composition. The curators present both as answers to the stage stereotypes of the day.\n\nIf you would rather hear it than read it, Davis, also a guest curator, plays rags from his collection in Gilder Lehrman Hall on 18 November at 7pm ($60, $50 for members), with the show open beforehand from 5:30. Otherwise it comes with general admission, and the Morgan stays open until 8pm on Fridays.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "Evening Visits",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 871,
@@ -22649,7 +24700,28 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.125newbury.com/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Tribeca",
+   "price": "Free",
+   "official_url": "https://www.pacegallery.com/exhibitions/rothko-gottlieb-surrealist-years/",
+   "long_description": "In June 1943 Rothko and Gottlieb sent a joint letter to The New York Times, answering a critic who had dismissed their work. \"We favor the simple expression of complex thought,\" they wrote, and asked for painting that was \"tragic and timeless.\" This show covers the decade they spent trying, 1941 to 1951.\n\nIt's the sequel to last year's Realist Years, and the paintings and works on paper cluster around 1942 to 1946, when both men turned to myth and the unconscious in the shadow of the war. Gottlieb packed figures, animals and symbols into the irregular grids of his Pictographs. Rothko went organic: his Gethsemane (1945) tells the story of Christ's last hours without a single figure. If you know Rothko from the soft colour rectangles, this is what came just before them.\n\nIt's at 125 Newbury, Arne Glimcher's project space at 395 Broadway in Tribeca, on the corner of Walker Street, not Pace's Chelsea tower. Open Tuesday to Saturday, 10am to 6pm.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Rothko, Gethsemane (1945)",
+     "text": "Christ's betrayal and final hours painted in organic, biomorphic shapes, entirely abstract, with no recognisable figure in it."
+    },
+    {
+     "title": "Gottlieb's Pictographs",
+     "text": "Stylized figures, animals and symbols set in an irregular grid, closer to carved glyphs or cave paintings than to a picture; the earliest here dates from 1941."
+    }
+   ],
+   "good_for": [
+    "Locals Who've Seen It All",
+    "Nerding Out",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 872,
@@ -22672,10 +24744,21 @@
    "venue_lat": 40.7617,
    "venue_lng": -73.9775,
    "venue_hours": "월-목 10:30 - 17:30\n금 10:30 - 20:30\n토-일 10:30 - 17:30",
-   "venue_phone": "",
+   "venue_phone": "+1-212-708-9400",
    "venue_price": "$30",
    "venue_homepage": "https://www.moma.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Midtown Manhattan",
+   "price": "$30",
+   "official_url": "https://www.moma.org/calendar/exhibitions/5869",
+   "long_description": "\"I work with what is hard to see,\" Na Mira has said, and she means it literally: her installations are built from radio frequencies, infrared heat and holography. For her first solo museum show in New York, she filmed at sites of personal and historical significance, letting chance and desire steer the shoot.\n\nThe result is one new commission, projected across the Kravis Studio, MoMA's room for performance and moving images. Mira draws on Korean shamanic ritual and on structural film, and calls her practice \"not film, not video, not performance, not text\". MoMA says the aim is to break down the faithful image that propaganda and soft power depend on.\n\nYou walk into it straight from the fourth-floor collection galleries, so it fits inside an ordinary MoMA visit. It suits people who like art about how images work and fail; nobody has reviewed it yet. Seating changes with each Studio installation, and gallery stools are available on request at the Museum entrances.",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [
+    "Locals Who've Seen It All",
+    "Nerding Out"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 873,
@@ -22701,7 +24784,39 @@
    "venue_phone": "",
    "venue_price": "$25",
    "venue_homepage": "https://www.amnh.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper West Side",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Stand between a red, a green and a blue light and your shadow splits into colored copies of you. That's the white room. The show first opened here in March 2020, days before the Museum closed for the pandemic, so few visitors got to see it.\n\nIt is five rooms, each a color with a theme: white for light and how your eyes read it, yellow for how color makes you feel, green for animals that hide or show off, red for what color means to people, and blue for pigments and dyes. Live animals sit among artifacts, artworks and hands-on stations. In a city that wears black from November to March, it's a rare winter afternoon when your shadow is more colorful than your coat.\n\nIt's on Floor 3 and needs a ticket on top of Museum entry: pick an entry date after November 15, then add The Nature of Color at checkout. Members get preview days on November 13 to 15.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "The colored shadows",
+     "text": "In the white room, red, green and blue lights shine on a screen, and stepping in front of them throws shadows in different colors."
+    },
+    {
+     "title": "The indigo dye table",
+     "text": "In the blue room, up to six people dye and print fabric virtually, beside indigo textiles and objects from Africa, Mexico and India."
+    },
+    {
+     "title": "The red wardrobe",
+     "text": "A couture gown, a football uniform, an Indian wedding lehenga, a cardinal's robe and a man's pink suit, each standing for something color signals, from power to gender."
+    },
+    {
+     "title": "The color game show",
+     "text": "A three-player quiz in the yellow room about how colors make you feel, with the audience playing along on their phones."
+    },
+    {
+     "title": "The leaf-tailed gecko",
+     "text": "A live gecko in the green room shows camouflage, near live poison dart frogs whose bright skin does the opposite."
+    }
+   ],
+   "good_for": [
+    "Small Kids",
+    "Teenagers"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 874,
@@ -22727,7 +24842,23 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://aperture.org/visit/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper West Side",
+   "price": "Free",
+   "official_url": "https://aperture.org/exhibitions/alex-webb-walking-blues/",
+   "long_description": "Children play in a downtown fountain in Erie, Pennsylvania, and a rainbow arcs through the spray. Alex Webb took that picture in 2010, at the start of a series he kept shooting until 2025 across some forty American cities, from El Paso and St. Louis to Philadelphia's Chinatown.\n\nThe gallery hangs a selection of prints from Webb's new Aperture book of the same name. Webb, a Magnum member since 1979, credits the \"lift and pull\" of blues music, and the pictures play to his long-standing strengths: bold colour, rhythm and chance encounters. You get small cities like Erie and Fort Wayne next to New Orleans and New York, seen from the sidewalk rather than the skyline.\n\nEntry is free, Wednesday to Sunday, closed Monday and Tuesday. Webb talks with Rebecca Norris Webb at the School of Visual Arts on 8 December, and the book costs $60.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Erie, Pennsylvania, 2010",
+     "text": "Look for kids playing in a downtown fountain while a rainbow arcs through the spray, one child with hands raised and another lying on the wet ground."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Rainy Days"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 875,
@@ -22750,10 +24881,39 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "In the middle of the sixth floor, four screens stand in a rectangle. From 2009 to 2024, artists took over whitney.org for ten to thirty seconds at every New York sunrise and sunset, and 18 of those takeovers play here in sequence, with the hourly On the Hour pieces that followed them.\n\nYou walk around them through a floor laid out like floating browser windows. All 30 artport Commissions are here, some rebuilt as installations, from code works by Golan Levin and Casey Reas to AI-driven projects by Morehshin Allahyari. The Gate Pages of 2001 to 2006 were splash pages, the intro screens the early web made you sit through before Skip Intro, and here they are the art.\n\nThe show also runs online, where all 57 Gate Pages live. Admission is $30, free for visitors 25 and under and on Fridays from 5 to 10pm. The Whitney is closed Tuesdays and recommends booking ahead.",
+   "editors_pick": "Over 100 net-art works commissioned for the Whitney's artport platform, charting internet art from 2001 to 2024 for the platform's 25th anniversary. The platform is older than most of the apps on your phone.",
+   "look_for": [
+    {
+     "title": "The four-screen sunrise and sunset ring",
+     "text": "At the centre of the floor, 18 Sunrise/Sunset takeovers of whitney.org play on the east and west screens, and On the Hour works by Peter Burr, Maya Man and Frank WANG Yefeng on the north and south."
+    },
+    {
+     "title": "Every artport Commission since 2001",
+     "text": "All 30 Commissions, grouped by topic, run from Golan Levin's and Casey Reas's code works to game worlds and AI-driven pieces, some rebuilt as gallery installations."
+    },
+    {
+     "title": "The Gate Pages",
+     "text": "Standalone projects from the splash screens artists made monthly from 2001 to 2006, by Tina LaPorta, Mark Napier, Keith + Mendi Obadike and others, from the web before social media."
+    },
+    {
+     "title": "Operator's Human Unreadable Act III",
+     "text": "The world premiere of the live finale to a generative choreography piece Operator has staged in acts since 2023, in the Hess Family Theater on November 19, 21 and 22."
+    }
+   ],
+   "good_for": [
+    "Evening Visits",
+    "Nerding Out",
+    "Teenagers"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 876,
@@ -22779,7 +24939,27 @@
    "venue_phone": "",
    "venue_price": "",
    "venue_homepage": "https://www.theshed.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Hudson Yards",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Two single mothers, one Black and one White, raise their daughters together, first in what The Shed calls \"the neon rush of 1920s Atlantic City\", then in 1930s New York. Adrienne Warren plays Delilah, Jessica Vosk plays Bea, and the songs are John Legend's, his first score for a musical. Lynn Nottage wrote the book.\n\nThe story comes from Fannie Hurst's 1933 novel, which Universal filmed twice, in 1934 and 1959. Here Delilah's daughter Peola is played by two actors, one as a girl and one grown up. You sit in the Griffin Theater for about 2 hours 40 minutes, with one intermission.\n\nThis is the world premiere: previews start 21 November, it opens officially on 3 December and closes 3 January after six weeks. Post-show conversations follow the performances on 8, 15, 17 and 22 December. The ASL-interpreted performance is 20 December at 1pm, booked by emailing accessibility@theshed.org.",
+   "editors_pick": "",
+   "look_for": [
+    {
+     "title": "Adrienne Warren as Delilah",
+     "text": "The Tony winner leads the cast as Delilah, the Black mother at the centre of the story."
+    },
+    {
+     "title": "Peola, played twice",
+     "text": "Look for Scarlett London Diviney as young Peola and Aleyse Shannon as the adult Peola, Delilah's daughter across the two decades."
+    }
+   ],
+   "good_for": [
+    "First-Timers",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 877,
@@ -22805,7 +24985,28 @@
    "venue_phone": "",
    "venue_price": "Free",
    "venue_homepage": "https://www.diaart.org/visit/visit-our-locations-sites/dia-chelsea-new-york-united-states",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Chelsea",
+   "price": "Free",
+   "official_url": "https://www.diaart.org/exhibition/exhibitions-projects/liane-radigue-states-of-listening-exhibition",
+   "long_description": "Radigue's early feedback pieces were short tape loops of slightly unequal length, left running until they slid out of sync, so the sound kept recombining into new tones. Dia is restaging two in-gallery sound installations she made at the turn of the 1970s. You walk into rooms built around low frequencies and what Dia calls their \"morphing effects\".\n\nAround them runs a series of three concerts that follow where her sound went next: Propositions sonores on 5 December, the three-hour Trilogie de la mort (1985 to 1993) played by François J. Bonnet over two sessions in January, and Naldjorlak (2005) with the cellist Charles Curtis. Artforum's Theo Belci called the show \"the apotheosis\" of a decades-long effort to get her unreleased and overlooked work heard. Radigue died in Paris in February 2026, aged 94.\n\nThis is a show about listening rather than looking. Entry is free, Wednesday to Saturday, 12 to 6pm. The last concert, on 13 February, is at the Kitchen, not at Dia.",
+   "editors_pick": "Dia and Blank Forms restage two of Éliane Radigue's early-1970s feedback and tape-loop installations, with concerts of her later pieces across the run. Artforum called it \"the apotheosis\". Admission is free.",
+   "look_for": [
+    {
+     "title": "Trilogie de la mort",
+     "text": "Her three-hour electronic work of 1985 to 1993, played by François J. Bonnet at Dia Chelsea on 15 January (7 to 10pm) and 16 January (2 to 5pm)."
+    },
+    {
+     "title": "Naldjorlak",
+     "text": "The 2005 piece from her acoustic period, played by Charles Curtis, the cellist who premiered it, at the Kitchen on 13 February, the show's last day."
+    }
+   ],
+   "good_for": [
+    "Cheap Culture",
+    "Going Solo",
+    "Nerding Out"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 878,
@@ -22831,7 +25032,28 @@
    "venue_phone": "",
    "venue_price": "",
    "venue_homepage": "https://www.theshed.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Hudson Yards",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "Somewhere in the 28,000 square feet is Virgil Abloh's Paris office, rebuilt: the studio at Pont Neuf where he worked. Nearby, a media lab opens a selection of his raw design files to anyone who walks in, which is the point The Shed makes about him: the process was meant to be shared.\n\nAround those two rooms are nearly 1,000 objects picked from an archive of more than 20,000, across fashion, sneakers, art, architecture, graphic design and music. You see finished pieces next to the prototypes and sketches behind them. Earlier editions ran in Miami and at the Grand Palais in Paris, and this one opens around the fifth anniversary of his death.\n\nTickets are timed, from $25, and the last slot of the day gets you in an hour before closing. Students and educators go free with ID and a reservation. An $85 VIP ticket drops the time slot and adds a merch item sold only with it.",
+   "editors_pick": "About 1,000 objects from Virgil Abloh's archive across 28,000 square feet, including a recreation of his Paris office. For anyone who followed Off-White and his Louis Vuitton menswear, it lays out the working process in full.",
+   "look_for": [
+    {
+     "title": "The Pont Neuf office",
+     "text": "Look for the recreation of Abloh's Paris office at Pont Neuf, the room where his work across fashion, design and music was run."
+    },
+    {
+     "title": "The media lab",
+     "text": "An interactive lab where you can open a selection of Abloh's raw design files, the working material behind the finished pieces."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests",
+    "Teenagers"
+   ],
+   "venue_phone_source": ""
   },
   {
    "id": 879,
@@ -22854,10 +25076,42 @@
    "venue_lat": 40.779434,
    "venue_lng": -73.963402,
    "venue_hours": "월-화 10:00 - 17:00\n수 휴관\n목 10:00 - 17:00\n금-토 10:00 - 21:00\n일 10:00 - 17:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 535-7710",
    "venue_price": "$30",
    "venue_homepage": "https://www.metmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Upper East Side",
+   "price": "Ticketed — see website",
+   "official_url": "https://www.metmuseum.org/exhibitions/across-wine-dark-seas-art-and-identity-beyond-ancient-greece",
+   "long_description": "For more than two decades, a bronze griffin's head greeted visitors at the entrance to The Met's Greek and Roman galleries. In 2025 the Met returned it to Greece, after research showed it had left the Olympia museum illegitimately in the 1930s. Now it's back on loan from Olympia, shown for the first time beside two related griffin heads. Like most people who leave New York, it only comes back to visit.\n\nAround it are more than 180 objects from the eighth to the early fifth century BCE, when Greeks traded, settled and fought across the Mediterranean. You move region by region, from West Asia and Egypt to Italy, Spain and the Black Sea, and each section also shows how Greek artists pictured the people they met there.\n\nCurator Seán Hemingway pitches it at people who think Greek art peaks with the Parthenon. It's in Gallery 199 at The Met Fifth Avenue and free with Museum admission. Members get preview days, December 17 to 19.",
+   "editors_pick": "The Olympia griffin head, repatriated in 2025, is back on loan beside two related heads. Around it, more than 180 objects follow Greek art to southern Italy, Iberia and Susa, with the Ugento Zeus in the US for the first time.",
+   "look_for": [
+    {
+     "title": "Herakles in the sun god's cauldron",
+     "text": "A drinking cup lent by the Vatican Museums shows Herakles sailing west across the sea inside the enormous cauldron of the sun god Helios."
+    },
+    {
+     "title": "The Zeus from Ugento",
+     "text": "A bronze statue of Zeus found in southern Italy, the signature work of the Archaeological Museum of Taranto, shown in the United States for the first time."
+    },
+    {
+     "title": "Three griffin heads",
+     "text": "The cauldron griffin from Olympia, once a fixture of The Met's own galleries, sits beside two related griffin heads for the first time."
+    },
+    {
+     "title": "An Iberian sphinx and lion",
+     "text": "Iberian sculptures of a sphinx and a lion, lent from Albacete and Córdoba, show Greek-style creatures made by local artists in Spain."
+    },
+    {
+     "title": "The Susa weight",
+     "text": "An enormous Greek bronze weight, found on the Persian royal acropolis at Susa and lent by the Louvre."
+    }
+   ],
+   "good_for": [
+    "Nerding Out",
+    "Out-Of-Town Guests"
+   ],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 880,
@@ -22880,10 +25134,18 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "-   [The Lost World: The Art of Minnie Evans22 August 2026 – 10 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/the-lost-world-minnie-evans)\n-   [Coumba Samba: Stars and Stripes19 September 2026 – 18 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/coumba-samba-stars-and-stripes)\n-   [Charles Burchfield: Elemental22 October 2026 – 31 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/charles-burchfield-elemental)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 881,
@@ -22906,10 +25168,18 @@
    "venue_lat": 40.722371,
    "venue_lng": -73.992908,
    "venue_hours": "월 휴관\n화-수 11:00 - 18:00\n목 11:00 - 21:00\n금-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1-212-219-1222",
    "venue_price": "$25",
    "venue_homepage": "https://www.newmuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Bowery, Lower East Side",
+   "price": "$25",
+   "official_url": "https://www.newmuseum.org/exhibition/sixth-new-museum-triennial-the-outside-expands/",
+   "long_description": "-   [Plaza: Sarah Lucas—VENUS VICTORIASarah Lucas's sculpture VENUS VICTORIA, inaugural recipient of the Beau Wrigley Sculpture Award, sited on the museum's new public plaza at the building's Bowery entrance.](https://www.musa.guide/en/discover/new-york/exhibitions/new-museum/plaza-sarah-lucas-venus-victoria)\n\n[Plan a visit to New Museum →](https://www.musa.guide/en/discover/new-york/new-museum)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 882,
@@ -22932,10 +25202,18 @@
    "venue_lat": 40.7396,
    "venue_lng": -74.0089,
    "venue_hours": "월-목 10:30 - 18:00\n금 10:30 - 22:00\n토-일 10:30 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 570-3600",
    "venue_price": "$30",
    "venue_homepage": "https://whitney.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Meatpacking District",
+   "price": "Ticketed — see website",
+   "official_url": "",
+   "long_description": "-   [The Lost World: The Art of Minnie Evans22 August 2026 – 10 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/the-lost-world-minnie-evans)\n-   [Coumba Samba: Stars and Stripes19 September 2026 – 18 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/coumba-samba-stars-and-stripes)\n-   [Charles Burchfield: Elemental22 October 2026 – 31 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/whitney-museum-of-american-art/charles-burchfield-elemental)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 883,
@@ -22958,10 +25236,18 @@
    "venue_lat": 40.8084778,
    "venue_lng": -73.9475333,
    "venue_hours": "월-화 휴관\n수-목 11:00 - 18:00\n금 11:00 - 21:00\n토-일 11:00 - 18:00",
-   "venue_phone": "",
+   "venue_phone": "+1 (212) 864-4500",
    "venue_price": "$16",
    "venue_homepage": "https://www.studiomuseum.org",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Harlem",
+   "price": "$16",
+   "official_url": "https://www.studiomuseum.org/exhibitions/woody-de-othello-coming-forth-by-day",
+   "long_description": "-   [A Sustained Becoming: Studio Museum Artists in Residence 20261 October 2026 – 3 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/studio-museum-in-harlem/a-sustained-becoming-artists-in-residence-2026)\n-   [Tone1 October 2026 – 3 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/studio-museum-in-harlem/tone)\n-   [Through Motion and Repose: Expanding the Walls 20261 July 2026 – 31 January 2027](https://www.musa.guide/en/discover/new-york/exhibitions/studio-museum-in-harlem/through-motion-and-repose-expanding-the-walls-2026)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": "wikidata"
   },
   {
    "id": 884,
@@ -22987,7 +25273,15 @@
    "venue_phone": "",
    "venue_price": "$25",
    "venue_homepage": "https://www.themorgan.org/",
-   "source": "musa.guide"
+   "source": "musa.guide",
+   "neighborhood": "Murray Hill",
+   "price": "$25",
+   "official_url": "https://www.themorgan.org/exhibitions/william-blake",
+   "long_description": "-   [Luminous Color10 February 2026 – 8 November 2026](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/luminous-color)\n-   [Graphic Devotions: Late Medieval European Blockbooks6 November 2026 – 16 May 2027](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/graphic-devotions-late-medieval-european-blockbooks)\n-   [Ragtime: Cakewalk in Pianoland13 November 2026 – 13 June 2027](https://www.musa.guide/en/discover/new-york/exhibitions/morgan-library-and-museum/ragtime-cakewalk-in-pianoland)",
+   "editors_pick": "",
+   "look_for": [],
+   "good_for": [],
+   "venue_phone_source": ""
   },
   {
    "id": 885,

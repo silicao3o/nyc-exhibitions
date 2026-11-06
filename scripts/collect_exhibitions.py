@@ -26,7 +26,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 BASE = 'https://www.musa.guide'
-UA = 'Mozilla/5.0 (compatible; exhibition-collector/1.0)'
+UA = 'Mozilla/5.0 (compatible; exhibition-collector/1.0; +https://github.com/silicao3o/nyc-exhibitions)'
 DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 DAYS_KO = '월화수목금토일'
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'july',
@@ -64,8 +64,9 @@ class Fetcher:
         self.requests = 0
         cache_dir.mkdir(parents=True, exist_ok=True)
 
-    def get(self, url: str) -> str | None:
-        path = self.cache_dir / (hashlib.sha1(url.encode()).hexdigest() + '.html')
+    def get(self, url: str, accept: str | None = None) -> str | None:
+        key = url if accept is None else f'{accept} {url}'
+        path = self.cache_dir / (hashlib.sha1(key.encode()).hexdigest() + '.html')
         if path.exists() and time.time() - path.stat().st_mtime < self.ttl:
             return path.read_text(errors='ignore')
         for attempt in range(4):
@@ -75,7 +76,10 @@ class Fetcher:
             self.last = time.time()
             self.requests += 1
             try:
-                req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept-Language': 'en'})
+                headers = {'User-Agent': UA, 'Accept-Language': 'en'}
+                if accept:
+                    headers['Accept'] = accept
+                req = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(req, timeout=30) as r:
                     body = r.read().decode('utf-8', errors='ignore')
                 path.write_text(body)

@@ -105,6 +105,14 @@
   .chips.sub .chip{height:30px;padding:0 14px}
   .logo{width:auto}
 
+  .desc p+p{margin-top:12px}
+  .dsec{margin:24px 0 12px}
+  .look{list-style:none;display:flex;flex-direction:column;gap:12px}
+  .look li{padding-left:12px;border-left:2px solid var(--primary200)}
+  .look .body02r{color:var(--text-secondary);margin-top:4px;line-height:18px}
+  .goods{display:flex;flex-wrap:wrap;gap:6px;margin-top:20px}
+  .good{padding:6px 10px;border-radius:4px;background:var(--sub-lightgray);color:var(--text-point)}
+
   /* DateFilterBottomSheet */
   #sheet{position:fixed;inset:0;z-index:30;background:rgba(0,0,0,.4);display:flex;align-items:flex-end;justify-content:center}
   #sheet[hidden]{display:none}
@@ -405,6 +413,7 @@ const ICON = {
   location: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5"><path d="M10 17.5s5.5-4.9 5.5-9.2a5.5 5.5 0 0 0-11 0c0 4.3 5.5 9.2 5.5 9.2z"/><circle cx="10" cy="8.3" r="2"/></svg>',
   duration: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5" stroke-linecap="round"><circle cx="10" cy="10" r="7"/><path d="M10 6v4l2.5 2"/></svg>',
   phone: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5" stroke-linejoin="round"><path d="M4.5 3.5h3l1.3 3.3-1.8 1.1a8 8 0 0 0 5.1 5.1l1.1-1.8 3.3 1.3v3a1.5 1.5 0 0 1-1.6 1.5C8.8 16.6 3.4 11.2 3 5.1A1.5 1.5 0 0 1 4.5 3.5z"/></svg>',
+  ticket: '<svg viewBox="0 0 20 20" fill="none" stroke="#111" stroke-width="1.5" stroke-linejoin="round"><path d="M3 6.5h14v2a1.5 1.5 0 0 0 0 3v2H3v-2a1.5 1.5 0 0 0 0-3z"/><path d="M12 6.5v7" stroke-dasharray="1.5 1.5"/></svg>',
   info: '<svg viewBox="0 0 16 16" fill="none" stroke="#686868" stroke-width="1.3" stroke-linecap="round"><circle cx="8" cy="8" r="6.2"/><path d="M8 7.2v3.6M8 5.2v.1"/></svg>',
 };
 let dtab = 'info';
@@ -420,10 +429,14 @@ function renderDetail(e) {
         <div class="irow"><div class="k body01b">${ICON.location}주소</div>
           <div class="v">${val(e.venue_address)}${e.venue_address ? `<br><button class="copy body02r" data-copy="${esc(e.venue_address)}">복사</button>` : ''}</div></div>
         <div class="irow"><div class="k body01b">${ICON.duration}운영시간</div><div class="v">${val(e.venue_hours)}</div></div>
-        <div class="irow"><div class="k body01b">${ICON.phone}전화번호</div><div class="v">${val(e.venue_phone)}</div></div>
+        <div class="irow"><div class="k body01b">${ICON.phone}전화번호</div><div class="v">${e.venue_phone ? `<a href="tel:${esc(e.venue_phone.replace(/[^+\d]/g, ''))}">${esc(e.venue_phone)}</a>` : val('')}</div></div>
+        ${e.price ? `<div class="irow"><div class="k body01b">${ICON.ticket}입장료</div><div class="v">${esc(e.price === 'Free' ? '무료' : e.price === 'Ticketed — see website' ? '유료 (홈페이지 확인)' : e.price)}</div></div>` : ''}
       </div>
       <p class="note body02r">${ICON.info}전시 장소는 변경될 수 있으므로 공식 홈페이지를 확인해주세요.</p>
-      ${e.description ? `<div class="box body01r">${esc(e.description)}</div>` : ''}`,
+      ${e.long_description || e.description ? `<div class="box body01r desc">${(e.long_description || e.description).split(/\n\n+/).map(p => `<p>${esc(p)}</p>`).join('')}</div>` : ''}
+      ${e.editors_pick ? `<h3 class="title02b dsec">에디터 추천</h3><div class="box body01r">${esc(e.editors_pick)}</div>` : ''}
+      ${e.look_for?.length ? `<h3 class="title02b dsec">관람 포인트</h3><ul class="look">${e.look_for.map(l => `<li><p class="body01b">${esc(l.title)}</p>${l.text ? `<p class="body02r">${esc(l.text)}</p>` : ''}</li>`).join('')}</ul>` : ''}
+      ${e.good_for?.length ? `<div class="goods">${e.good_for.map(g => `<span class="good body02b">#${esc(g)}</span>`).join('')}</div>` : ''}`,
     map: `<div class="map"><iframe src="${mapSrc}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="지도"></iframe></div>`,
     review: `
       <div class="box rv-head" style="padding:12px">
@@ -444,7 +457,7 @@ function renderDetail(e) {
       <section class="info">
         <h1 class="headline">${esc(e.title)}</h1>
         <div class="meta body01r"><p>${period(e)}</p><p>${esc(e.venue)}</p><p style="color:var(--text-tertiary)">${esc(e.city_ko)}, ${esc(e.country_ko)}</p></div>
-        <a class="btn title02b" href="${esc(e.venue_homepage || e.url)}" target="_blank" rel="noopener">홈페이지 바로가기</a>
+        <a class="btn title02b" href="${esc(e.official_url || e.venue_homepage || e.url)}" target="_blank" rel="noopener">홈페이지 바로가기</a>
       </section>
       <nav class="dtabs title02b">
         ${[['info', '상세 정보'], ['map', '지도'], ['review', '리뷰']].map(([k, l]) => `<button class="dtab ${k === dtab ? 'on' : ''}" data-dtab="${k}">${l}</button>`).join('')}
